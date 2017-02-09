@@ -1,0 +1,1866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E31BE41B183B08C700BE971B /* HotineObliqueMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E31BE419183B08C700BE971B /* HotineObliqueMercator.cpp */; };
+		E31BE41C183B08C700BE971B /* HotineObliqueMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E31BE419183B08C700BE971B /* HotineObliqueMercator.cpp */; };
+		E31BE41D183B08C700BE971B /* HotineObliqueMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E31BE41A183B08C700BE971B /* HotineObliqueMercator.h */; };
+		E31BE41E183B08C700BE971B /* HotineObliqueMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E31BE41A183B08C700BE971B /* HotineObliqueMercator.h */; };
+		E3792D861838360F0006E2D0 /* CoordinateSystemParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485851831CCF000A68C03 /* CoordinateSystemParameters.cpp */; };
+		E3792D871838360F0006E2D0 /* EllipsoidParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485871831CCF000A68C03 /* EllipsoidParameters.cpp */; };
+		E3792D881838360F0006E2D0 /* EquidistantCylindricalParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485891831CCF000A68C03 /* EquidistantCylindricalParameters.cpp */; };
+		E3792D891838360F0006E2D0 /* GeodeticParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858B1831CCF100A68C03 /* GeodeticParameters.cpp */; };
+		E3792D8A1838360F0006E2D0 /* LocalCartesianParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858D1831CCF100A68C03 /* LocalCartesianParameters.cpp */; };
+		E3792D8B1838360F0006E2D0 /* MapProjection3Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858F1831CCF100A68C03 /* MapProjection3Parameters.cpp */; };
+		E3792D8C1838360F0006E2D0 /* MapProjection4Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485911831CCF100A68C03 /* MapProjection4Parameters.cpp */; };
+		E3792D8D1838360F0006E2D0 /* MapProjection5Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485931831CCF100A68C03 /* MapProjection5Parameters.cpp */; };
+		E3792D8E1838360F0006E2D0 /* MapProjection6Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485951831CCF100A68C03 /* MapProjection6Parameters.cpp */; };
+		E3792D8F1838360F0006E2D0 /* MercatorScaleFactorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485971831CCF100A68C03 /* MercatorScaleFactorParameters.cpp */; };
+		E3792D901838360F0006E2D0 /* MercatorStandardParallelParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485991831CCF100A68C03 /* MercatorStandardParallelParameters.cpp */; };
+		E3792D911838360F0006E2D0 /* NeysParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859B1831CCF100A68C03 /* NeysParameters.cpp */; };
+		E3792D921838360F0006E2D0 /* ObliqueMercatorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859D1831CCF100A68C03 /* ObliqueMercatorParameters.cpp */; };
+		E3792D931838360F0006E2D0 /* PolarStereographicScaleFactorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859F1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp */; };
+		E3792D941838360F0006E2D0 /* PolarStereographicStandardParallelParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A11831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp */; };
+		E3792D951838360F0006E2D0 /* UTMParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A31831CCF100A68C03 /* UTMParameters.cpp */; };
+		E3792D961838360F0006E2D0 /* AlbersEqualAreaConic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A71831CCF100A68C03 /* AlbersEqualAreaConic.cpp */; };
+		E3792D971838360F0006E2D0 /* AzimuthalEquidistant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485AA1831CCF100A68C03 /* AzimuthalEquidistant.cpp */; };
+		E3792D981838360F0006E2D0 /* BritishNationalGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485AD1831CCF100A68C03 /* BritishNationalGrid.cpp */; };
+		E3792D991838360F0006E2D0 /* Bonne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B01831CCF100A68C03 /* Bonne.cpp */; };
+		E3792D9A1838363B0006E2D0 /* Cassini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B31831CCF100A68C03 /* Cassini.cpp */; };
+		E3792D9B1838363B0006E2D0 /* CylindricalEqualArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B61831CCF100A68C03 /* CylindricalEqualArea.cpp */; };
+		E3792D9C1838363B0006E2D0 /* Datum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B91831CCF100A68C03 /* Datum.cpp */; };
+		E3792D9D1838363B0006E2D0 /* DatumLibraryImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BB1831CCF100A68C03 /* DatumLibraryImplementation.cpp */; };
+		E3792D9E1838363B0006E2D0 /* SevenParameterDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BD1831CCF100A68C03 /* SevenParameterDatum.cpp */; };
+		E3792D9F1838363B0006E2D0 /* ThreeParameterDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BF1831CCF100A68C03 /* ThreeParameterDatum.cpp */; };
+		E3792DA01838363B0006E2D0 /* Eckert4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C21831CCF100A68C03 /* Eckert4.cpp */; };
+		E3792DA11838363B0006E2D0 /* Eckert6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C51831CCF100A68C03 /* Eckert6.cpp */; };
+		E3792DA21838363B0006E2D0 /* Ellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C81831CCF100A68C03 /* Ellipsoid.cpp */; };
+		E3792DA31838363B0006E2D0 /* EllipsoidLibraryImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485CA1831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp */; };
+		E3792DA41838363B0006E2D0 /* EquidistantCylindrical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485CD1831CCF100A68C03 /* EquidistantCylindrical.cpp */; };
+		E3792DA51838363B0006E2D0 /* GARS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D01831CCF100A68C03 /* GARS.cpp */; };
+		E3792DA61838363B0006E2D0 /* Geocentric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D31831CCF100A68C03 /* Geocentric.cpp */; };
+		E3792DA71838363B0006E2D0 /* GEOREF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D61831CCF100A68C03 /* GEOREF.cpp */; };
+		E3792DA81838363B0006E2D0 /* Gnomonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D91831CCF100A68C03 /* Gnomonic.cpp */; };
+		E3792DA91838363B0006E2D0 /* VanDerGrinten.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485DC1831CCF100A68C03 /* VanDerGrinten.cpp */; };
+		E3792DAA1838363B0006E2D0 /* LambertConformalConic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485DF1831CCF100A68C03 /* LambertConformalConic.cpp */; };
+		E3792DAB1838363B0006E2D0 /* LocalCartesian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E21831CCF100A68C03 /* LocalCartesian.cpp */; };
+		E3792DAC1838363B0006E2D0 /* Mercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E51831CCF100A68C03 /* Mercator.cpp */; };
+		E3792DAD1838363B0006E2D0 /* MGRS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E81831CCF100A68C03 /* MGRS.cpp */; };
+		E3792DAE1838363B0006E2D0 /* MillerCylindrical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485EB1831CCF100A68C03 /* MillerCylindrical.cpp */; };
+		E3792DAF1838363B0006E2D0 /* CoordinateSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485EE1831CCF100A68C03 /* CoordinateSystem.cpp */; };
+		E3792DB01838363B0006E2D0 /* Mollweide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F11831CCF100A68C03 /* Mollweide.cpp */; };
+		E3792DB11838363B0006E2D0 /* Neys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F41831CCF100A68C03 /* Neys.cpp */; };
+		E3792DB21838363B0006E2D0 /* NZMG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F71831CCF100A68C03 /* NZMG.cpp */; };
+		E3792DB3183836740006E2D0 /* ObliqueMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485FA1831CCF100A68C03 /* ObliqueMercator.cpp */; };
+		E3792DB4183836740006E2D0 /* Orthographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485FD1831CCF100A68C03 /* Orthographic.cpp */; };
+		E3792DB5183836740006E2D0 /* PolarStereographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486001831CCF100A68C03 /* PolarStereographic.cpp */; };
+		E3792DB6183836740006E2D0 /* Polyconic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486031831CCF100A68C03 /* Polyconic.cpp */; };
+		E3792DB7183836740006E2D0 /* Sinusoidal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486061831CCF100A68C03 /* Sinusoidal.cpp */; };
+		E3792DB8183836740006E2D0 /* Stereographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486091831CCF100A68C03 /* Stereographic.cpp */; };
+		E3792DB9183836740006E2D0 /* CCSThreadLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4860C1831CCF100A68C03 /* CCSThreadLock.cpp */; };
+		E3792DBA183836740006E2D0 /* CCSThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4860E1831CCF100A68C03 /* CCSThreadMutex.cpp */; };
+		E3792DBB183836740006E2D0 /* TransverseMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486111831CCF100A68C03 /* TransverseMercator.cpp */; };
+		E3792DBC183836740006E2D0 /* TransverseCylindricalEqualArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486141831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp */; };
+		E3792DBD183836740006E2D0 /* UPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486171831CCF100A68C03 /* UPS.cpp */; };
+		E3792DBE183836740006E2D0 /* USNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4861A1831CCF100A68C03 /* USNG.cpp */; };
+		E3792DBF183836740006E2D0 /* UTM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4861D1831CCF100A68C03 /* UTM.cpp */; };
+		E3792DC0183836740006E2D0 /* Accuracy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486201831CCF100A68C03 /* Accuracy.cpp */; };
+		E3792DC1183836740006E2D0 /* BNGCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486221831CCF100A68C03 /* BNGCoordinates.cpp */; };
+		E3792DC2183836740006E2D0 /* CartesianCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486241831CCF100A68C03 /* CartesianCoordinates.cpp */; };
+		E3792DC3183836740006E2D0 /* CoordinateTuple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486261831CCF100A68C03 /* CoordinateTuple.cpp */; };
+		E3792DC4183836740006E2D0 /* GARSCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486281831CCF100A68C03 /* GARSCoordinates.cpp */; };
+		E3792DC5183836740006E2D0 /* GeodeticCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862A1831CCF100A68C03 /* GeodeticCoordinates.cpp */; };
+		E3792DC6183836740006E2D0 /* GEOREFCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862C1831CCF100A68C03 /* GEOREFCoordinates.cpp */; };
+		E3792DC7183836740006E2D0 /* MapProjectionCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862E1831CCF100A68C03 /* MapProjectionCoordinates.cpp */; };
+		E3792DC8183836740006E2D0 /* MGRSorUSNGCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486301831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp */; };
+		E3792DC9183836740006E2D0 /* UPSCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486321831CCF100A68C03 /* UPSCoordinates.cpp */; };
+		E3792DCA183836740006E2D0 /* UTMCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486341831CCF100A68C03 /* UTMCoordinates.cpp */; };
+		E3792DCB183836740006E2D0 /* DatumLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486361831CCF100A68C03 /* DatumLibrary.cpp */; };
+		E3792DCC183836740006E2D0 /* egm2008_aoi_grid_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486391831CCF100A68C03 /* egm2008_aoi_grid_package.cpp */; };
+		E3792DCD183836740006E2D0 /* egm2008_full_grid_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863B1831CCF100A68C03 /* egm2008_full_grid_package.cpp */; };
+		E3792DCE183836740006E2D0 /* egm2008_geoid_grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863D1831CCF100A68C03 /* egm2008_geoid_grid.cpp */; };
+		E3792DCF183836740006E2D0 /* EllipsoidLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863F1831CCF100A68C03 /* EllipsoidLibrary.cpp */; };
+		E3792DD0183836740006E2D0 /* ErrorMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486491831CCF100A68C03 /* ErrorMessages.cpp */; };
+		E3792DD1183836740006E2D0 /* WarningMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4864B1831CCF100A68C03 /* WarningMessages.cpp */; };
+		E3792DD2183836740006E2D0 /* GeoidLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4864D1831CCF100A68C03 /* GeoidLibrary.cpp */; };
+		E3EAD694184CB56500D9206C /* CoordinateSystemParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485851831CCF000A68C03 /* CoordinateSystemParameters.cpp */; };
+		E3EAD695184CB56500D9206C /* EllipsoidParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485871831CCF000A68C03 /* EllipsoidParameters.cpp */; };
+		E3EAD696184CB56500D9206C /* EquidistantCylindricalParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485891831CCF000A68C03 /* EquidistantCylindricalParameters.cpp */; };
+		E3EAD697184CB56500D9206C /* GeodeticParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858B1831CCF100A68C03 /* GeodeticParameters.cpp */; };
+		E3EAD698184CB56500D9206C /* LocalCartesianParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858D1831CCF100A68C03 /* LocalCartesianParameters.cpp */; };
+		E3EAD699184CB56500D9206C /* MapProjection3Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858F1831CCF100A68C03 /* MapProjection3Parameters.cpp */; };
+		E3EAD69A184CB56500D9206C /* MapProjection4Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485911831CCF100A68C03 /* MapProjection4Parameters.cpp */; };
+		E3EAD69B184CB56500D9206C /* MapProjection5Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485931831CCF100A68C03 /* MapProjection5Parameters.cpp */; };
+		E3EAD69C184CB56500D9206C /* MapProjection6Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485951831CCF100A68C03 /* MapProjection6Parameters.cpp */; };
+		E3EAD69D184CB56500D9206C /* MercatorScaleFactorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485971831CCF100A68C03 /* MercatorScaleFactorParameters.cpp */; };
+		E3EAD69E184CB56500D9206C /* MercatorStandardParallelParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485991831CCF100A68C03 /* MercatorStandardParallelParameters.cpp */; };
+		E3EAD69F184CB56500D9206C /* NeysParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859B1831CCF100A68C03 /* NeysParameters.cpp */; };
+		E3EAD6A0184CB56500D9206C /* ObliqueMercatorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859D1831CCF100A68C03 /* ObliqueMercatorParameters.cpp */; };
+		E3EAD6A1184CB56500D9206C /* PolarStereographicScaleFactorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859F1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp */; };
+		E3EAD6A2184CB56500D9206C /* PolarStereographicStandardParallelParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A11831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp */; };
+		E3EAD6A3184CB56500D9206C /* UTMParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A31831CCF100A68C03 /* UTMParameters.cpp */; };
+		E3EAD6A4184CB59300D9206C /* AlbersEqualAreaConic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A71831CCF100A68C03 /* AlbersEqualAreaConic.cpp */; };
+		E3EAD6A5184CB59300D9206C /* AzimuthalEquidistant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485AA1831CCF100A68C03 /* AzimuthalEquidistant.cpp */; };
+		E3EAD6A6184CB59300D9206C /* BritishNationalGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485AD1831CCF100A68C03 /* BritishNationalGrid.cpp */; };
+		E3EAD6A7184CB59300D9206C /* Bonne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B01831CCF100A68C03 /* Bonne.cpp */; };
+		E3EAD6A8184CB59300D9206C /* Cassini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B31831CCF100A68C03 /* Cassini.cpp */; };
+		E3EAD6A9184CB59300D9206C /* CylindricalEqualArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B61831CCF100A68C03 /* CylindricalEqualArea.cpp */; };
+		E3EAD6AA184CB59300D9206C /* Datum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B91831CCF100A68C03 /* Datum.cpp */; };
+		E3EAD6AB184CB59300D9206C /* DatumLibraryImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BB1831CCF100A68C03 /* DatumLibraryImplementation.cpp */; };
+		E3EAD6AC184CB59300D9206C /* SevenParameterDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BD1831CCF100A68C03 /* SevenParameterDatum.cpp */; };
+		E3EAD6AD184CB59300D9206C /* ThreeParameterDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BF1831CCF100A68C03 /* ThreeParameterDatum.cpp */; };
+		E3EAD6AE184CB59300D9206C /* Eckert4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C21831CCF100A68C03 /* Eckert4.cpp */; };
+		E3EAD6AF184CB59300D9206C /* Eckert6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C51831CCF100A68C03 /* Eckert6.cpp */; };
+		E3EAD6B0184CB59300D9206C /* Ellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C81831CCF100A68C03 /* Ellipsoid.cpp */; };
+		E3EAD6B1184CB59300D9206C /* EllipsoidLibraryImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485CA1831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp */; };
+		E3EAD6B2184CB59300D9206C /* EquidistantCylindrical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485CD1831CCF100A68C03 /* EquidistantCylindrical.cpp */; };
+		E3EAD6B3184CB59300D9206C /* GARS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D01831CCF100A68C03 /* GARS.cpp */; };
+		E3EAD6B4184CB59300D9206C /* Geocentric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D31831CCF100A68C03 /* Geocentric.cpp */; };
+		E3EAD6B5184CB59300D9206C /* GEOREF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D61831CCF100A68C03 /* GEOREF.cpp */; };
+		E3EAD6B6184CB59300D9206C /* Gnomonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D91831CCF100A68C03 /* Gnomonic.cpp */; };
+		E3EAD6B7184CB59300D9206C /* VanDerGrinten.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485DC1831CCF100A68C03 /* VanDerGrinten.cpp */; };
+		E3EAD6B8184CB59300D9206C /* HotineObliqueMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E31BE419183B08C700BE971B /* HotineObliqueMercator.cpp */; };
+		E3EAD6B9184CB59300D9206C /* LambertConformalConic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485DF1831CCF100A68C03 /* LambertConformalConic.cpp */; };
+		E3EAD6BA184CB59300D9206C /* LocalCartesian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E21831CCF100A68C03 /* LocalCartesian.cpp */; };
+		E3EAD6BB184CB59300D9206C /* Mercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E51831CCF100A68C03 /* Mercator.cpp */; };
+		E3EAD6BC184CB59300D9206C /* MGRS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E81831CCF100A68C03 /* MGRS.cpp */; };
+		E3EAD6BD184CB59300D9206C /* MillerCylindrical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485EB1831CCF100A68C03 /* MillerCylindrical.cpp */; };
+		E3EAD6BE184CB59300D9206C /* CoordinateSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485EE1831CCF100A68C03 /* CoordinateSystem.cpp */; };
+		E3EAD6BF184CB59300D9206C /* Mollweide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F11831CCF100A68C03 /* Mollweide.cpp */; };
+		E3EAD6C0184CB59300D9206C /* Neys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F41831CCF100A68C03 /* Neys.cpp */; };
+		E3EAD6C1184CB59300D9206C /* NZMG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F71831CCF100A68C03 /* NZMG.cpp */; };
+		E3EAD6C2184CB59300D9206C /* ObliqueMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485FA1831CCF100A68C03 /* ObliqueMercator.cpp */; };
+		E3EAD6C3184CB5CC00D9206C /* Orthographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485FD1831CCF100A68C03 /* Orthographic.cpp */; };
+		E3EAD6C4184CB5CC00D9206C /* PolarStereographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486001831CCF100A68C03 /* PolarStereographic.cpp */; };
+		E3EAD6C5184CB5CC00D9206C /* Polyconic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486031831CCF100A68C03 /* Polyconic.cpp */; };
+		E3EAD6C6184CB5CD00D9206C /* Sinusoidal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486061831CCF100A68C03 /* Sinusoidal.cpp */; };
+		E3EAD6C7184CB5CD00D9206C /* Stereographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486091831CCF100A68C03 /* Stereographic.cpp */; };
+		E3EAD6C8184CB5CD00D9206C /* CCSThreadLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4860C1831CCF100A68C03 /* CCSThreadLock.cpp */; };
+		E3EAD6C9184CB5CD00D9206C /* CCSThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4860E1831CCF100A68C03 /* CCSThreadMutex.cpp */; };
+		E3EAD6CA184CB5CD00D9206C /* TransverseMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486111831CCF100A68C03 /* TransverseMercator.cpp */; };
+		E3EAD6CB184CB5CD00D9206C /* TransverseCylindricalEqualArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486141831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp */; };
+		E3EAD6CC184CB5CD00D9206C /* UPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486171831CCF100A68C03 /* UPS.cpp */; };
+		E3EAD6CD184CB5CD00D9206C /* USNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4861A1831CCF100A68C03 /* USNG.cpp */; };
+		E3EAD6CE184CB5CD00D9206C /* UTM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4861D1831CCF100A68C03 /* UTM.cpp */; };
+		E3EAD6CF184CB5CD00D9206C /* Accuracy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486201831CCF100A68C03 /* Accuracy.cpp */; };
+		E3EAD6D0184CB5CD00D9206C /* BNGCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486221831CCF100A68C03 /* BNGCoordinates.cpp */; };
+		E3EAD6D1184CB5CD00D9206C /* CartesianCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486241831CCF100A68C03 /* CartesianCoordinates.cpp */; };
+		E3EAD6D2184CB5CD00D9206C /* CoordinateTuple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486261831CCF100A68C03 /* CoordinateTuple.cpp */; };
+		E3EAD6D3184CB5CD00D9206C /* GARSCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486281831CCF100A68C03 /* GARSCoordinates.cpp */; };
+		E3EAD6D4184CB5CD00D9206C /* GeodeticCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862A1831CCF100A68C03 /* GeodeticCoordinates.cpp */; };
+		E3EAD6D5184CB5CD00D9206C /* GEOREFCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862C1831CCF100A68C03 /* GEOREFCoordinates.cpp */; };
+		E3EAD6D6184CB5CD00D9206C /* MapProjectionCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862E1831CCF100A68C03 /* MapProjectionCoordinates.cpp */; };
+		E3EAD6D7184CB5CD00D9206C /* MGRSorUSNGCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486301831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp */; };
+		E3EAD6D8184CB5CD00D9206C /* UPSCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486321831CCF100A68C03 /* UPSCoordinates.cpp */; };
+		E3EAD6D9184CB5CD00D9206C /* UTMCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486341831CCF100A68C03 /* UTMCoordinates.cpp */; };
+		E3EAD6DA184CB5CD00D9206C /* DatumLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486361831CCF100A68C03 /* DatumLibrary.cpp */; };
+		E3EAD6DB184CB5CD00D9206C /* egm2008_aoi_grid_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486391831CCF100A68C03 /* egm2008_aoi_grid_package.cpp */; };
+		E3EAD6DC184CB5CD00D9206C /* egm2008_full_grid_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863B1831CCF100A68C03 /* egm2008_full_grid_package.cpp */; };
+		E3EAD6DD184CB5CD00D9206C /* egm2008_geoid_grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863D1831CCF100A68C03 /* egm2008_geoid_grid.cpp */; };
+		E3EAD6DE184CB5CD00D9206C /* EllipsoidLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863F1831CCF100A68C03 /* EllipsoidLibrary.cpp */; };
+		E3EAD6DF184CB5CD00D9206C /* ErrorMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486491831CCF100A68C03 /* ErrorMessages.cpp */; };
+		E3EAD6E0184CB5CD00D9206C /* WarningMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4864B1831CCF100A68C03 /* WarningMessages.cpp */; };
+		E3EAD6E1184CB5CD00D9206C /* GeoidLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4864D1831CCF100A68C03 /* GeoidLibrary.cpp */; };
+		E3EAD6E2184CB63800D9206C /* CoordinateSystemParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485861831CCF000A68C03 /* CoordinateSystemParameters.h */; };
+		E3EAD6E3184CB63800D9206C /* EllipsoidParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485881831CCF000A68C03 /* EllipsoidParameters.h */; };
+		E3EAD6E4184CB63800D9206C /* EquidistantCylindricalParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4858A1831CCF000A68C03 /* EquidistantCylindricalParameters.h */; };
+		E3EAD6E5184CB63800D9206C /* GeodeticParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4858C1831CCF100A68C03 /* GeodeticParameters.h */; };
+		E3EAD6E6184CB63800D9206C /* LocalCartesianParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4858E1831CCF100A68C03 /* LocalCartesianParameters.h */; };
+		E3EAD6E7184CB63800D9206C /* MapProjection3Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485901831CCF100A68C03 /* MapProjection3Parameters.h */; };
+		E3EAD6E8184CB63800D9206C /* MapProjection4Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485921831CCF100A68C03 /* MapProjection4Parameters.h */; };
+		E3EAD6E9184CB63800D9206C /* MapProjection5Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485941831CCF100A68C03 /* MapProjection5Parameters.h */; };
+		E3EAD6EA184CB63800D9206C /* MapProjection6Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485961831CCF100A68C03 /* MapProjection6Parameters.h */; };
+		E3EAD6EB184CB63800D9206C /* MercatorScaleFactorParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485981831CCF100A68C03 /* MercatorScaleFactorParameters.h */; };
+		E3EAD6EC184CB63800D9206C /* MercatorStandardParallelParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4859A1831CCF100A68C03 /* MercatorStandardParallelParameters.h */; };
+		E3EAD6ED184CB63800D9206C /* NeysParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4859C1831CCF100A68C03 /* NeysParameters.h */; };
+		E3EAD6EE184CB63800D9206C /* ObliqueMercatorParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4859E1831CCF100A68C03 /* ObliqueMercatorParameters.h */; };
+		E3EAD6EF184CB63800D9206C /* PolarStereographicScaleFactorParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A01831CCF100A68C03 /* PolarStereographicScaleFactorParameters.h */; };
+		E3EAD6F0184CB63800D9206C /* PolarStereographicStandardParallelParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A21831CCF100A68C03 /* PolarStereographicStandardParallelParameters.h */; };
+		E3EAD6F1184CB63800D9206C /* UTMParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A41831CCF100A68C03 /* UTMParameters.h */; };
+		E3EAD6F2184CB63800D9206C /* AlbersEqualAreaConic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A81831CCF100A68C03 /* AlbersEqualAreaConic.h */; };
+		E3EAD6F3184CB63800D9206C /* AzimuthalEquidistant.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485AB1831CCF100A68C03 /* AzimuthalEquidistant.h */; };
+		E3EAD6F4184CB63800D9206C /* BritishNationalGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485AE1831CCF100A68C03 /* BritishNationalGrid.h */; };
+		E3EAD6F5184CB63800D9206C /* Bonne.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485B11831CCF100A68C03 /* Bonne.h */; };
+		E3EAD6F6184CB63800D9206C /* Cassini.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485B41831CCF100A68C03 /* Cassini.h */; };
+		E3EAD6F7184CB63800D9206C /* CylindricalEqualArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485B71831CCF100A68C03 /* CylindricalEqualArea.h */; };
+		E3EAD6F8184CB63800D9206C /* Datum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485BA1831CCF100A68C03 /* Datum.h */; };
+		E3EAD6F9184CB63800D9206C /* DatumLibraryImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485BC1831CCF100A68C03 /* DatumLibraryImplementation.h */; };
+		E3EAD6FA184CB63800D9206C /* SevenParameterDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485BE1831CCF100A68C03 /* SevenParameterDatum.h */; };
+		E3EAD6FB184CB63800D9206C /* ThreeParameterDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C01831CCF100A68C03 /* ThreeParameterDatum.h */; };
+		E3EAD6FC184CB63800D9206C /* Eckert4.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C31831CCF100A68C03 /* Eckert4.h */; };
+		E3EAD6FD184CB63800D9206C /* Eckert6.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C61831CCF100A68C03 /* Eckert6.h */; };
+		E3EAD6FE184CB63800D9206C /* Ellipsoid.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C91831CCF100A68C03 /* Ellipsoid.h */; };
+		E3EAD6FF184CB63800D9206C /* EllipsoidLibraryImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485CB1831CCF100A68C03 /* EllipsoidLibraryImplementation.h */; };
+		E3EAD700184CB63800D9206C /* EquidistantCylindrical.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485CE1831CCF100A68C03 /* EquidistantCylindrical.h */; };
+		E3EAD701184CB63800D9206C /* GARS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485D11831CCF100A68C03 /* GARS.h */; };
+		E3EAD702184CB63800D9206C /* Geocentric.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485D41831CCF100A68C03 /* Geocentric.h */; };
+		E3EAD703184CB63800D9206C /* GEOREF.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485D71831CCF100A68C03 /* GEOREF.h */; };
+		E3EAD704184CB63800D9206C /* Gnomonic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485DA1831CCF100A68C03 /* Gnomonic.h */; };
+		E3EAD705184CB63800D9206C /* VanDerGrinten.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485DD1831CCF100A68C03 /* VanDerGrinten.h */; };
+		E3EAD706184CB63800D9206C /* HotineObliqueMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E31BE41A183B08C700BE971B /* HotineObliqueMercator.h */; };
+		E3EAD707184CB63800D9206C /* LambertConformalConic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E01831CCF100A68C03 /* LambertConformalConic.h */; };
+		E3EAD708184CB63800D9206C /* LocalCartesian.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E31831CCF100A68C03 /* LocalCartesian.h */; };
+		E3EAD709184CB63800D9206C /* Mercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E61831CCF100A68C03 /* Mercator.h */; };
+		E3EAD70A184CB63800D9206C /* MGRS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E91831CCF100A68C03 /* MGRS.h */; };
+		E3EAD70B184CB63800D9206C /* MillerCylindrical.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485EC1831CCF100A68C03 /* MillerCylindrical.h */; };
+		E3EAD70C184CB63800D9206C /* CoordinateSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485EF1831CCF100A68C03 /* CoordinateSystem.h */; };
+		E3EAD70D184CB63800D9206C /* Mollweide.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485F21831CCF100A68C03 /* Mollweide.h */; };
+		E3EAD70E184CB63800D9206C /* Neys.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485F51831CCF100A68C03 /* Neys.h */; };
+		E3EAD70F184CB63800D9206C /* NZMG.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485F81831CCF100A68C03 /* NZMG.h */; };
+		E3EAD710184CB63800D9206C /* ObliqueMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485FB1831CCF100A68C03 /* ObliqueMercator.h */; };
+		E3EAD711184CB63800D9206C /* Orthographic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485FE1831CCF100A68C03 /* Orthographic.h */; };
+		E3EAD712184CB63800D9206C /* PolarStereographic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486011831CCF100A68C03 /* PolarStereographic.h */; };
+		E3EAD713184CB63800D9206C /* Polyconic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486041831CCF100A68C03 /* Polyconic.h */; };
+		E3EAD714184CB63800D9206C /* Sinusoidal.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486071831CCF100A68C03 /* Sinusoidal.h */; };
+		E3EAD715184CB63800D9206C /* Stereographic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4860A1831CCF100A68C03 /* Stereographic.h */; };
+		E3EAD716184CB63800D9206C /* CCSThreadLock.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4860D1831CCF100A68C03 /* CCSThreadLock.h */; };
+		E3EAD717184CB63800D9206C /* CCSThreadMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4860F1831CCF100A68C03 /* CCSThreadMutex.h */; };
+		E3EAD718184CB63800D9206C /* TransverseMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486121831CCF100A68C03 /* TransverseMercator.h */; };
+		E3EAD719184CB63800D9206C /* TransverseCylindricalEqualArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486151831CCF100A68C03 /* TransverseCylindricalEqualArea.h */; };
+		E3EAD71A184CB63800D9206C /* UPS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486181831CCF100A68C03 /* UPS.h */; };
+		E3EAD71B184CB63800D9206C /* USNG.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4861B1831CCF100A68C03 /* USNG.h */; };
+		E3EAD71C184CB63800D9206C /* UTM.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4861E1831CCF100A68C03 /* UTM.h */; };
+		E3EAD71D184CB63800D9206C /* Accuracy.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486211831CCF100A68C03 /* Accuracy.h */; };
+		E3EAD71E184CB63800D9206C /* BNGCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486231831CCF100A68C03 /* BNGCoordinates.h */; };
+		E3EAD71F184CB63800D9206C /* CartesianCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486251831CCF100A68C03 /* CartesianCoordinates.h */; };
+		E3EAD720184CB63800D9206C /* CoordinateTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486271831CCF100A68C03 /* CoordinateTuple.h */; };
+		E3EAD721184CB63800D9206C /* GARSCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486291831CCF100A68C03 /* GARSCoordinates.h */; };
+		E3EAD722184CB63800D9206C /* GeodeticCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4862B1831CCF100A68C03 /* GeodeticCoordinates.h */; };
+		E3EAD723184CB63800D9206C /* GEOREFCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4862D1831CCF100A68C03 /* GEOREFCoordinates.h */; };
+		E3EAD724184CB63800D9206C /* MapProjectionCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4862F1831CCF100A68C03 /* MapProjectionCoordinates.h */; };
+		E3EAD725184CB63800D9206C /* MGRSorUSNGCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486311831CCF100A68C03 /* MGRSorUSNGCoordinates.h */; };
+		E3EAD726184CB63800D9206C /* UPSCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486331831CCF100A68C03 /* UPSCoordinates.h */; };
+		E3EAD727184CB63800D9206C /* UTMCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486351831CCF100A68C03 /* UTMCoordinates.h */; };
+		E3EAD728184CB63800D9206C /* DatumLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486371831CCF100A68C03 /* DatumLibrary.h */; };
+		E3EAD729184CB63800D9206C /* DtccApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486381831CCF100A68C03 /* DtccApi.h */; };
+		E3EAD72A184CB63800D9206C /* egm2008_aoi_grid_package.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4863A1831CCF100A68C03 /* egm2008_aoi_grid_package.h */; };
+		E3EAD72B184CB63800D9206C /* egm2008_full_grid_package.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4863C1831CCF100A68C03 /* egm2008_full_grid_package.h */; };
+		E3EAD72C184CB63800D9206C /* egm2008_geoid_grid.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4863E1831CCF100A68C03 /* egm2008_geoid_grid.h */; };
+		E3EAD72D184CB63800D9206C /* EllipsoidLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486401831CCF100A68C03 /* EllipsoidLibrary.h */; };
+		E3EAD72E184CB63800D9206C /* CoordinateType.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486421831CCF100A68C03 /* CoordinateType.h */; };
+		E3EAD72F184CB63800D9206C /* DatumType.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486431831CCF100A68C03 /* DatumType.h */; };
+		E3EAD730184CB63800D9206C /* HeightType.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486441831CCF100A68C03 /* HeightType.h */; };
+		E3EAD731184CB63800D9206C /* Precision.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486451831CCF100A68C03 /* Precision.h */; };
+		E3EAD732184CB63800D9206C /* SourceOrTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486461831CCF100A68C03 /* SourceOrTarget.h */; };
+		E3EAD733184CB63800D9206C /* CoordinateConversionException.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486481831CCF100A68C03 /* CoordinateConversionException.h */; };
+		E3EAD734184CB63800D9206C /* ErrorMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4864A1831CCF100A68C03 /* ErrorMessages.h */; };
+		E3EAD735184CB63800D9206C /* WarningMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4864C1831CCF100A68C03 /* WarningMessages.h */; };
+		E3EAD736184CB63800D9206C /* GeoidLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4864E1831CCF100A68C03 /* GeoidLibrary.h */; };
+		E3F4864F1831CCF100A68C03 /* CoordinateSystemParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485851831CCF000A68C03 /* CoordinateSystemParameters.cpp */; };
+		E3F486501831CCF100A68C03 /* CoordinateSystemParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485861831CCF000A68C03 /* CoordinateSystemParameters.h */; };
+		E3F486511831CCF100A68C03 /* EllipsoidParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485871831CCF000A68C03 /* EllipsoidParameters.cpp */; };
+		E3F486521831CCF100A68C03 /* EllipsoidParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485881831CCF000A68C03 /* EllipsoidParameters.h */; };
+		E3F486531831CCF100A68C03 /* EquidistantCylindricalParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485891831CCF000A68C03 /* EquidistantCylindricalParameters.cpp */; };
+		E3F486541831CCF100A68C03 /* EquidistantCylindricalParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4858A1831CCF000A68C03 /* EquidistantCylindricalParameters.h */; };
+		E3F486551831CCF100A68C03 /* GeodeticParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858B1831CCF100A68C03 /* GeodeticParameters.cpp */; };
+		E3F486561831CCF100A68C03 /* GeodeticParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4858C1831CCF100A68C03 /* GeodeticParameters.h */; };
+		E3F486571831CCF100A68C03 /* LocalCartesianParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858D1831CCF100A68C03 /* LocalCartesianParameters.cpp */; };
+		E3F486581831CCF100A68C03 /* LocalCartesianParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4858E1831CCF100A68C03 /* LocalCartesianParameters.h */; };
+		E3F486591831CCF100A68C03 /* MapProjection3Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4858F1831CCF100A68C03 /* MapProjection3Parameters.cpp */; };
+		E3F4865A1831CCF100A68C03 /* MapProjection3Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485901831CCF100A68C03 /* MapProjection3Parameters.h */; };
+		E3F4865B1831CCF100A68C03 /* MapProjection4Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485911831CCF100A68C03 /* MapProjection4Parameters.cpp */; };
+		E3F4865C1831CCF100A68C03 /* MapProjection4Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485921831CCF100A68C03 /* MapProjection4Parameters.h */; };
+		E3F4865D1831CCF100A68C03 /* MapProjection5Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485931831CCF100A68C03 /* MapProjection5Parameters.cpp */; };
+		E3F4865E1831CCF100A68C03 /* MapProjection5Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485941831CCF100A68C03 /* MapProjection5Parameters.h */; };
+		E3F4865F1831CCF100A68C03 /* MapProjection6Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485951831CCF100A68C03 /* MapProjection6Parameters.cpp */; };
+		E3F486601831CCF100A68C03 /* MapProjection6Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485961831CCF100A68C03 /* MapProjection6Parameters.h */; };
+		E3F486611831CCF100A68C03 /* MercatorScaleFactorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485971831CCF100A68C03 /* MercatorScaleFactorParameters.cpp */; };
+		E3F486621831CCF100A68C03 /* MercatorScaleFactorParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485981831CCF100A68C03 /* MercatorScaleFactorParameters.h */; };
+		E3F486631831CCF100A68C03 /* MercatorStandardParallelParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485991831CCF100A68C03 /* MercatorStandardParallelParameters.cpp */; };
+		E3F486641831CCF100A68C03 /* MercatorStandardParallelParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4859A1831CCF100A68C03 /* MercatorStandardParallelParameters.h */; };
+		E3F486651831CCF100A68C03 /* NeysParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859B1831CCF100A68C03 /* NeysParameters.cpp */; };
+		E3F486661831CCF100A68C03 /* NeysParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4859C1831CCF100A68C03 /* NeysParameters.h */; };
+		E3F486671831CCF100A68C03 /* ObliqueMercatorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859D1831CCF100A68C03 /* ObliqueMercatorParameters.cpp */; };
+		E3F486681831CCF100A68C03 /* ObliqueMercatorParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4859E1831CCF100A68C03 /* ObliqueMercatorParameters.h */; };
+		E3F486691831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4859F1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp */; };
+		E3F4866A1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A01831CCF100A68C03 /* PolarStereographicScaleFactorParameters.h */; };
+		E3F4866B1831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A11831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp */; };
+		E3F4866C1831CCF100A68C03 /* PolarStereographicStandardParallelParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A21831CCF100A68C03 /* PolarStereographicStandardParallelParameters.h */; };
+		E3F4866D1831CCF100A68C03 /* UTMParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A31831CCF100A68C03 /* UTMParameters.cpp */; };
+		E3F4866E1831CCF100A68C03 /* UTMParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A41831CCF100A68C03 /* UTMParameters.h */; };
+		E3F4866F1831CCF100A68C03 /* AlbersEqualAreaConic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485A71831CCF100A68C03 /* AlbersEqualAreaConic.cpp */; };
+		E3F486701831CCF100A68C03 /* AlbersEqualAreaConic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485A81831CCF100A68C03 /* AlbersEqualAreaConic.h */; };
+		E3F486711831CCF100A68C03 /* AzimuthalEquidistant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485AA1831CCF100A68C03 /* AzimuthalEquidistant.cpp */; };
+		E3F486721831CCF100A68C03 /* AzimuthalEquidistant.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485AB1831CCF100A68C03 /* AzimuthalEquidistant.h */; };
+		E3F486731831CCF100A68C03 /* BritishNationalGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485AD1831CCF100A68C03 /* BritishNationalGrid.cpp */; };
+		E3F486741831CCF100A68C03 /* BritishNationalGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485AE1831CCF100A68C03 /* BritishNationalGrid.h */; };
+		E3F486751831CCF100A68C03 /* Bonne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B01831CCF100A68C03 /* Bonne.cpp */; };
+		E3F486761831CCF100A68C03 /* Bonne.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485B11831CCF100A68C03 /* Bonne.h */; };
+		E3F486771831CCF100A68C03 /* Cassini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B31831CCF100A68C03 /* Cassini.cpp */; };
+		E3F486781831CCF100A68C03 /* Cassini.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485B41831CCF100A68C03 /* Cassini.h */; };
+		E3F486791831CCF100A68C03 /* CylindricalEqualArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B61831CCF100A68C03 /* CylindricalEqualArea.cpp */; };
+		E3F4867A1831CCF100A68C03 /* CylindricalEqualArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485B71831CCF100A68C03 /* CylindricalEqualArea.h */; };
+		E3F4867B1831CCF100A68C03 /* Datum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485B91831CCF100A68C03 /* Datum.cpp */; };
+		E3F4867C1831CCF100A68C03 /* Datum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485BA1831CCF100A68C03 /* Datum.h */; };
+		E3F4867D1831CCF100A68C03 /* DatumLibraryImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BB1831CCF100A68C03 /* DatumLibraryImplementation.cpp */; };
+		E3F4867E1831CCF100A68C03 /* DatumLibraryImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485BC1831CCF100A68C03 /* DatumLibraryImplementation.h */; };
+		E3F4867F1831CCF100A68C03 /* SevenParameterDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BD1831CCF100A68C03 /* SevenParameterDatum.cpp */; };
+		E3F486801831CCF100A68C03 /* SevenParameterDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485BE1831CCF100A68C03 /* SevenParameterDatum.h */; };
+		E3F486811831CCF100A68C03 /* ThreeParameterDatum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485BF1831CCF100A68C03 /* ThreeParameterDatum.cpp */; };
+		E3F486821831CCF100A68C03 /* ThreeParameterDatum.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C01831CCF100A68C03 /* ThreeParameterDatum.h */; };
+		E3F486831831CCF100A68C03 /* Eckert4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C21831CCF100A68C03 /* Eckert4.cpp */; };
+		E3F486841831CCF100A68C03 /* Eckert4.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C31831CCF100A68C03 /* Eckert4.h */; };
+		E3F486851831CCF100A68C03 /* Eckert6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C51831CCF100A68C03 /* Eckert6.cpp */; };
+		E3F486861831CCF100A68C03 /* Eckert6.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C61831CCF100A68C03 /* Eckert6.h */; };
+		E3F486871831CCF100A68C03 /* Ellipsoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485C81831CCF100A68C03 /* Ellipsoid.cpp */; };
+		E3F486881831CCF100A68C03 /* Ellipsoid.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485C91831CCF100A68C03 /* Ellipsoid.h */; };
+		E3F486891831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485CA1831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp */; };
+		E3F4868A1831CCF100A68C03 /* EllipsoidLibraryImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485CB1831CCF100A68C03 /* EllipsoidLibraryImplementation.h */; };
+		E3F4868B1831CCF100A68C03 /* EquidistantCylindrical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485CD1831CCF100A68C03 /* EquidistantCylindrical.cpp */; };
+		E3F4868C1831CCF100A68C03 /* EquidistantCylindrical.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485CE1831CCF100A68C03 /* EquidistantCylindrical.h */; };
+		E3F4868D1831CCF100A68C03 /* GARS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D01831CCF100A68C03 /* GARS.cpp */; };
+		E3F4868E1831CCF100A68C03 /* GARS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485D11831CCF100A68C03 /* GARS.h */; };
+		E3F4868F1831CCF100A68C03 /* Geocentric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D31831CCF100A68C03 /* Geocentric.cpp */; };
+		E3F486901831CCF100A68C03 /* Geocentric.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485D41831CCF100A68C03 /* Geocentric.h */; };
+		E3F486911831CCF100A68C03 /* GEOREF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D61831CCF100A68C03 /* GEOREF.cpp */; };
+		E3F486921831CCF100A68C03 /* GEOREF.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485D71831CCF100A68C03 /* GEOREF.h */; };
+		E3F486931831CCF100A68C03 /* Gnomonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485D91831CCF100A68C03 /* Gnomonic.cpp */; };
+		E3F486941831CCF100A68C03 /* Gnomonic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485DA1831CCF100A68C03 /* Gnomonic.h */; };
+		E3F486951831CCF100A68C03 /* VanDerGrinten.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485DC1831CCF100A68C03 /* VanDerGrinten.cpp */; };
+		E3F486961831CCF100A68C03 /* VanDerGrinten.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485DD1831CCF100A68C03 /* VanDerGrinten.h */; };
+		E3F486971831CCF100A68C03 /* LambertConformalConic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485DF1831CCF100A68C03 /* LambertConformalConic.cpp */; };
+		E3F486981831CCF100A68C03 /* LambertConformalConic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E01831CCF100A68C03 /* LambertConformalConic.h */; };
+		E3F486991831CCF100A68C03 /* LocalCartesian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E21831CCF100A68C03 /* LocalCartesian.cpp */; };
+		E3F4869A1831CCF100A68C03 /* LocalCartesian.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E31831CCF100A68C03 /* LocalCartesian.h */; };
+		E3F4869B1831CCF100A68C03 /* Mercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E51831CCF100A68C03 /* Mercator.cpp */; };
+		E3F4869C1831CCF100A68C03 /* Mercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E61831CCF100A68C03 /* Mercator.h */; };
+		E3F4869D1831CCF100A68C03 /* MGRS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485E81831CCF100A68C03 /* MGRS.cpp */; };
+		E3F4869E1831CCF100A68C03 /* MGRS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485E91831CCF100A68C03 /* MGRS.h */; };
+		E3F4869F1831CCF100A68C03 /* MillerCylindrical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485EB1831CCF100A68C03 /* MillerCylindrical.cpp */; };
+		E3F486A01831CCF100A68C03 /* MillerCylindrical.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485EC1831CCF100A68C03 /* MillerCylindrical.h */; };
+		E3F486A11831CCF100A68C03 /* CoordinateSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485EE1831CCF100A68C03 /* CoordinateSystem.cpp */; };
+		E3F486A21831CCF100A68C03 /* CoordinateSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485EF1831CCF100A68C03 /* CoordinateSystem.h */; };
+		E3F486A31831CCF100A68C03 /* Mollweide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F11831CCF100A68C03 /* Mollweide.cpp */; };
+		E3F486A41831CCF100A68C03 /* Mollweide.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485F21831CCF100A68C03 /* Mollweide.h */; };
+		E3F486A51831CCF100A68C03 /* Neys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F41831CCF100A68C03 /* Neys.cpp */; };
+		E3F486A61831CCF100A68C03 /* Neys.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485F51831CCF100A68C03 /* Neys.h */; };
+		E3F486A71831CCF100A68C03 /* NZMG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485F71831CCF100A68C03 /* NZMG.cpp */; };
+		E3F486A81831CCF100A68C03 /* NZMG.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485F81831CCF100A68C03 /* NZMG.h */; };
+		E3F486A91831CCF100A68C03 /* ObliqueMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485FA1831CCF100A68C03 /* ObliqueMercator.cpp */; };
+		E3F486AA1831CCF100A68C03 /* ObliqueMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485FB1831CCF100A68C03 /* ObliqueMercator.h */; };
+		E3F486AB1831CCF100A68C03 /* Orthographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F485FD1831CCF100A68C03 /* Orthographic.cpp */; };
+		E3F486AC1831CCF100A68C03 /* Orthographic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F485FE1831CCF100A68C03 /* Orthographic.h */; };
+		E3F486AD1831CCF100A68C03 /* PolarStereographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486001831CCF100A68C03 /* PolarStereographic.cpp */; };
+		E3F486AE1831CCF100A68C03 /* PolarStereographic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486011831CCF100A68C03 /* PolarStereographic.h */; };
+		E3F486AF1831CCF100A68C03 /* Polyconic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486031831CCF100A68C03 /* Polyconic.cpp */; };
+		E3F486B01831CCF100A68C03 /* Polyconic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486041831CCF100A68C03 /* Polyconic.h */; };
+		E3F486B11831CCF100A68C03 /* Sinusoidal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486061831CCF100A68C03 /* Sinusoidal.cpp */; };
+		E3F486B21831CCF100A68C03 /* Sinusoidal.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486071831CCF100A68C03 /* Sinusoidal.h */; };
+		E3F486B31831CCF100A68C03 /* Stereographic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486091831CCF100A68C03 /* Stereographic.cpp */; };
+		E3F486B41831CCF100A68C03 /* Stereographic.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4860A1831CCF100A68C03 /* Stereographic.h */; };
+		E3F486B51831CCF100A68C03 /* CCSThreadLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4860C1831CCF100A68C03 /* CCSThreadLock.cpp */; };
+		E3F486B61831CCF100A68C03 /* CCSThreadLock.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4860D1831CCF100A68C03 /* CCSThreadLock.h */; };
+		E3F486B71831CCF100A68C03 /* CCSThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4860E1831CCF100A68C03 /* CCSThreadMutex.cpp */; };
+		E3F486B81831CCF100A68C03 /* CCSThreadMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4860F1831CCF100A68C03 /* CCSThreadMutex.h */; };
+		E3F486B91831CCF100A68C03 /* TransverseMercator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486111831CCF100A68C03 /* TransverseMercator.cpp */; };
+		E3F486BA1831CCF100A68C03 /* TransverseMercator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486121831CCF100A68C03 /* TransverseMercator.h */; };
+		E3F486BB1831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486141831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp */; };
+		E3F486BC1831CCF100A68C03 /* TransverseCylindricalEqualArea.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486151831CCF100A68C03 /* TransverseCylindricalEqualArea.h */; };
+		E3F486BD1831CCF100A68C03 /* UPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486171831CCF100A68C03 /* UPS.cpp */; };
+		E3F486BE1831CCF100A68C03 /* UPS.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486181831CCF100A68C03 /* UPS.h */; };
+		E3F486BF1831CCF100A68C03 /* USNG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4861A1831CCF100A68C03 /* USNG.cpp */; };
+		E3F486C01831CCF100A68C03 /* USNG.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4861B1831CCF100A68C03 /* USNG.h */; };
+		E3F486C11831CCF100A68C03 /* UTM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4861D1831CCF100A68C03 /* UTM.cpp */; };
+		E3F486C21831CCF100A68C03 /* UTM.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4861E1831CCF100A68C03 /* UTM.h */; };
+		E3F486C31831CCF100A68C03 /* Accuracy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486201831CCF100A68C03 /* Accuracy.cpp */; };
+		E3F486C41831CCF100A68C03 /* Accuracy.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486211831CCF100A68C03 /* Accuracy.h */; };
+		E3F486C51831CCF100A68C03 /* BNGCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486221831CCF100A68C03 /* BNGCoordinates.cpp */; };
+		E3F486C61831CCF100A68C03 /* BNGCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486231831CCF100A68C03 /* BNGCoordinates.h */; };
+		E3F486C71831CCF100A68C03 /* CartesianCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486241831CCF100A68C03 /* CartesianCoordinates.cpp */; };
+		E3F486C81831CCF100A68C03 /* CartesianCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486251831CCF100A68C03 /* CartesianCoordinates.h */; };
+		E3F486C91831CCF100A68C03 /* CoordinateTuple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486261831CCF100A68C03 /* CoordinateTuple.cpp */; };
+		E3F486CA1831CCF100A68C03 /* CoordinateTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486271831CCF100A68C03 /* CoordinateTuple.h */; };
+		E3F486CB1831CCF100A68C03 /* GARSCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486281831CCF100A68C03 /* GARSCoordinates.cpp */; };
+		E3F486CC1831CCF100A68C03 /* GARSCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486291831CCF100A68C03 /* GARSCoordinates.h */; };
+		E3F486CD1831CCF100A68C03 /* GeodeticCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862A1831CCF100A68C03 /* GeodeticCoordinates.cpp */; };
+		E3F486CE1831CCF100A68C03 /* GeodeticCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4862B1831CCF100A68C03 /* GeodeticCoordinates.h */; };
+		E3F486CF1831CCF100A68C03 /* GEOREFCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862C1831CCF100A68C03 /* GEOREFCoordinates.cpp */; };
+		E3F486D01831CCF100A68C03 /* GEOREFCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4862D1831CCF100A68C03 /* GEOREFCoordinates.h */; };
+		E3F486D11831CCF100A68C03 /* MapProjectionCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4862E1831CCF100A68C03 /* MapProjectionCoordinates.cpp */; };
+		E3F486D21831CCF100A68C03 /* MapProjectionCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4862F1831CCF100A68C03 /* MapProjectionCoordinates.h */; };
+		E3F486D31831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486301831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp */; };
+		E3F486D41831CCF100A68C03 /* MGRSorUSNGCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486311831CCF100A68C03 /* MGRSorUSNGCoordinates.h */; };
+		E3F486D51831CCF100A68C03 /* UPSCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486321831CCF100A68C03 /* UPSCoordinates.cpp */; };
+		E3F486D61831CCF100A68C03 /* UPSCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486331831CCF100A68C03 /* UPSCoordinates.h */; };
+		E3F486D71831CCF100A68C03 /* UTMCoordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486341831CCF100A68C03 /* UTMCoordinates.cpp */; };
+		E3F486D81831CCF100A68C03 /* UTMCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486351831CCF100A68C03 /* UTMCoordinates.h */; };
+		E3F486D91831CCF100A68C03 /* DatumLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486361831CCF100A68C03 /* DatumLibrary.cpp */; };
+		E3F486DA1831CCF100A68C03 /* DatumLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486371831CCF100A68C03 /* DatumLibrary.h */; };
+		E3F486DB1831CCF100A68C03 /* DtccApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486381831CCF100A68C03 /* DtccApi.h */; };
+		E3F486DC1831CCF100A68C03 /* egm2008_aoi_grid_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486391831CCF100A68C03 /* egm2008_aoi_grid_package.cpp */; };
+		E3F486DD1831CCF100A68C03 /* egm2008_aoi_grid_package.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4863A1831CCF100A68C03 /* egm2008_aoi_grid_package.h */; };
+		E3F486DE1831CCF100A68C03 /* egm2008_full_grid_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863B1831CCF100A68C03 /* egm2008_full_grid_package.cpp */; };
+		E3F486DF1831CCF100A68C03 /* egm2008_full_grid_package.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4863C1831CCF100A68C03 /* egm2008_full_grid_package.h */; };
+		E3F486E01831CCF100A68C03 /* egm2008_geoid_grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863D1831CCF100A68C03 /* egm2008_geoid_grid.cpp */; };
+		E3F486E11831CCF100A68C03 /* egm2008_geoid_grid.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4863E1831CCF100A68C03 /* egm2008_geoid_grid.h */; };
+		E3F486E21831CCF100A68C03 /* EllipsoidLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4863F1831CCF100A68C03 /* EllipsoidLibrary.cpp */; };
+		E3F486E31831CCF100A68C03 /* EllipsoidLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486401831CCF100A68C03 /* EllipsoidLibrary.h */; };
+		E3F486E41831CCF100A68C03 /* CoordinateType.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486421831CCF100A68C03 /* CoordinateType.h */; };
+		E3F486E51831CCF100A68C03 /* DatumType.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486431831CCF100A68C03 /* DatumType.h */; };
+		E3F486E61831CCF100A68C03 /* HeightType.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486441831CCF100A68C03 /* HeightType.h */; };
+		E3F486E71831CCF100A68C03 /* Precision.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486451831CCF100A68C03 /* Precision.h */; };
+		E3F486E81831CCF100A68C03 /* SourceOrTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486461831CCF100A68C03 /* SourceOrTarget.h */; };
+		E3F486E91831CCF100A68C03 /* CoordinateConversionException.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F486481831CCF100A68C03 /* CoordinateConversionException.h */; };
+		E3F486EA1831CCF100A68C03 /* ErrorMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F486491831CCF100A68C03 /* ErrorMessages.cpp */; };
+		E3F486EB1831CCF100A68C03 /* ErrorMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4864A1831CCF100A68C03 /* ErrorMessages.h */; };
+		E3F486EC1831CCF100A68C03 /* WarningMessages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4864B1831CCF100A68C03 /* WarningMessages.cpp */; };
+		E3F486ED1831CCF100A68C03 /* WarningMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4864C1831CCF100A68C03 /* WarningMessages.h */; };
+		E3F486EE1831CCF100A68C03 /* GeoidLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F4864D1831CCF100A68C03 /* GeoidLibrary.cpp */; };
+		E3F486EF1831CCF100A68C03 /* GeoidLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F4864E1831CCF100A68C03 /* GeoidLibrary.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E31BE419183B08C700BE971B /* HotineObliqueMercator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = HotineObliqueMercator.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E31BE41A183B08C700BE971B /* HotineObliqueMercator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotineObliqueMercator.h; sourceTree = "<group>"; };
+		E3792D77183835140006E2D0 /* libMSPdtcc_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSPdtcc_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EAD684184CB45200D9206C /* libMSPdtcc_static_iOS7.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSPdtcc_static_iOS7.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F484061831CB9F00A68C03 /* libMSPdtcc.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMSPdtcc.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F485851831CCF000A68C03 /* CoordinateSystemParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoordinateSystemParameters.cpp; sourceTree = "<group>"; };
+		E3F485861831CCF000A68C03 /* CoordinateSystemParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateSystemParameters.h; sourceTree = "<group>"; };
+		E3F485871831CCF000A68C03 /* EllipsoidParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EllipsoidParameters.cpp; sourceTree = "<group>"; };
+		E3F485881831CCF000A68C03 /* EllipsoidParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsoidParameters.h; sourceTree = "<group>"; };
+		E3F485891831CCF000A68C03 /* EquidistantCylindricalParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EquidistantCylindricalParameters.cpp; sourceTree = "<group>"; };
+		E3F4858A1831CCF000A68C03 /* EquidistantCylindricalParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquidistantCylindricalParameters.h; sourceTree = "<group>"; };
+		E3F4858B1831CCF100A68C03 /* GeodeticParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeodeticParameters.cpp; sourceTree = "<group>"; };
+		E3F4858C1831CCF100A68C03 /* GeodeticParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeodeticParameters.h; sourceTree = "<group>"; };
+		E3F4858D1831CCF100A68C03 /* LocalCartesianParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalCartesianParameters.cpp; sourceTree = "<group>"; };
+		E3F4858E1831CCF100A68C03 /* LocalCartesianParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalCartesianParameters.h; sourceTree = "<group>"; };
+		E3F4858F1831CCF100A68C03 /* MapProjection3Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapProjection3Parameters.cpp; sourceTree = "<group>"; };
+		E3F485901831CCF100A68C03 /* MapProjection3Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapProjection3Parameters.h; sourceTree = "<group>"; };
+		E3F485911831CCF100A68C03 /* MapProjection4Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapProjection4Parameters.cpp; sourceTree = "<group>"; };
+		E3F485921831CCF100A68C03 /* MapProjection4Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapProjection4Parameters.h; sourceTree = "<group>"; };
+		E3F485931831CCF100A68C03 /* MapProjection5Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapProjection5Parameters.cpp; sourceTree = "<group>"; };
+		E3F485941831CCF100A68C03 /* MapProjection5Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapProjection5Parameters.h; sourceTree = "<group>"; };
+		E3F485951831CCF100A68C03 /* MapProjection6Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapProjection6Parameters.cpp; sourceTree = "<group>"; };
+		E3F485961831CCF100A68C03 /* MapProjection6Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapProjection6Parameters.h; sourceTree = "<group>"; };
+		E3F485971831CCF100A68C03 /* MercatorScaleFactorParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MercatorScaleFactorParameters.cpp; sourceTree = "<group>"; };
+		E3F485981831CCF100A68C03 /* MercatorScaleFactorParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercatorScaleFactorParameters.h; sourceTree = "<group>"; };
+		E3F485991831CCF100A68C03 /* MercatorStandardParallelParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MercatorStandardParallelParameters.cpp; sourceTree = "<group>"; };
+		E3F4859A1831CCF100A68C03 /* MercatorStandardParallelParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercatorStandardParallelParameters.h; sourceTree = "<group>"; };
+		E3F4859B1831CCF100A68C03 /* NeysParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeysParameters.cpp; sourceTree = "<group>"; };
+		E3F4859C1831CCF100A68C03 /* NeysParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeysParameters.h; sourceTree = "<group>"; };
+		E3F4859D1831CCF100A68C03 /* ObliqueMercatorParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ObliqueMercatorParameters.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F4859E1831CCF100A68C03 /* ObliqueMercatorParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObliqueMercatorParameters.h; sourceTree = "<group>"; };
+		E3F4859F1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolarStereographicScaleFactorParameters.cpp; sourceTree = "<group>"; };
+		E3F485A01831CCF100A68C03 /* PolarStereographicScaleFactorParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolarStereographicScaleFactorParameters.h; sourceTree = "<group>"; };
+		E3F485A11831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolarStereographicStandardParallelParameters.cpp; sourceTree = "<group>"; };
+		E3F485A21831CCF100A68C03 /* PolarStereographicStandardParallelParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolarStereographicStandardParallelParameters.h; sourceTree = "<group>"; };
+		E3F485A31831CCF100A68C03 /* UTMParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTMParameters.cpp; sourceTree = "<group>"; };
+		E3F485A41831CCF100A68C03 /* UTMParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMParameters.h; sourceTree = "<group>"; };
+		E3F485A71831CCF100A68C03 /* AlbersEqualAreaConic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlbersEqualAreaConic.cpp; sourceTree = "<group>"; };
+		E3F485A81831CCF100A68C03 /* AlbersEqualAreaConic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbersEqualAreaConic.h; sourceTree = "<group>"; };
+		E3F485AA1831CCF100A68C03 /* AzimuthalEquidistant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AzimuthalEquidistant.cpp; sourceTree = "<group>"; };
+		E3F485AB1831CCF100A68C03 /* AzimuthalEquidistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AzimuthalEquidistant.h; sourceTree = "<group>"; };
+		E3F485AD1831CCF100A68C03 /* BritishNationalGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BritishNationalGrid.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485AE1831CCF100A68C03 /* BritishNationalGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BritishNationalGrid.h; sourceTree = "<group>"; };
+		E3F485B01831CCF100A68C03 /* Bonne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bonne.cpp; sourceTree = "<group>"; };
+		E3F485B11831CCF100A68C03 /* Bonne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonne.h; sourceTree = "<group>"; };
+		E3F485B31831CCF100A68C03 /* Cassini.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cassini.cpp; sourceTree = "<group>"; };
+		E3F485B41831CCF100A68C03 /* Cassini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cassini.h; sourceTree = "<group>"; };
+		E3F485B61831CCF100A68C03 /* CylindricalEqualArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CylindricalEqualArea.cpp; sourceTree = "<group>"; };
+		E3F485B71831CCF100A68C03 /* CylindricalEqualArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CylindricalEqualArea.h; sourceTree = "<group>"; };
+		E3F485B91831CCF100A68C03 /* Datum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Datum.cpp; sourceTree = "<group>"; };
+		E3F485BA1831CCF100A68C03 /* Datum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datum.h; sourceTree = "<group>"; };
+		E3F485BB1831CCF100A68C03 /* DatumLibraryImplementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DatumLibraryImplementation.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485BC1831CCF100A68C03 /* DatumLibraryImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatumLibraryImplementation.h; sourceTree = "<group>"; };
+		E3F485BD1831CCF100A68C03 /* SevenParameterDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SevenParameterDatum.cpp; sourceTree = "<group>"; };
+		E3F485BE1831CCF100A68C03 /* SevenParameterDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenParameterDatum.h; sourceTree = "<group>"; };
+		E3F485BF1831CCF100A68C03 /* ThreeParameterDatum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeParameterDatum.cpp; sourceTree = "<group>"; };
+		E3F485C01831CCF100A68C03 /* ThreeParameterDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeParameterDatum.h; sourceTree = "<group>"; };
+		E3F485C21831CCF100A68C03 /* Eckert4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eckert4.cpp; sourceTree = "<group>"; };
+		E3F485C31831CCF100A68C03 /* Eckert4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eckert4.h; sourceTree = "<group>"; };
+		E3F485C51831CCF100A68C03 /* Eckert6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eckert6.cpp; sourceTree = "<group>"; };
+		E3F485C61831CCF100A68C03 /* Eckert6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eckert6.h; sourceTree = "<group>"; };
+		E3F485C81831CCF100A68C03 /* Ellipsoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ellipsoid.cpp; sourceTree = "<group>"; };
+		E3F485C91831CCF100A68C03 /* Ellipsoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ellipsoid.h; sourceTree = "<group>"; };
+		E3F485CA1831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EllipsoidLibraryImplementation.cpp; sourceTree = "<group>"; };
+		E3F485CB1831CCF100A68C03 /* EllipsoidLibraryImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsoidLibraryImplementation.h; sourceTree = "<group>"; };
+		E3F485CD1831CCF100A68C03 /* EquidistantCylindrical.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EquidistantCylindrical.cpp; sourceTree = "<group>"; };
+		E3F485CE1831CCF100A68C03 /* EquidistantCylindrical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquidistantCylindrical.h; sourceTree = "<group>"; };
+		E3F485D01831CCF100A68C03 /* GARS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = GARS.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485D11831CCF100A68C03 /* GARS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GARS.h; sourceTree = "<group>"; };
+		E3F485D31831CCF100A68C03 /* Geocentric.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Geocentric.cpp; sourceTree = "<group>"; };
+		E3F485D41831CCF100A68C03 /* Geocentric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geocentric.h; sourceTree = "<group>"; };
+		E3F485D61831CCF100A68C03 /* GEOREF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = GEOREF.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485D71831CCF100A68C03 /* GEOREF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOREF.h; sourceTree = "<group>"; };
+		E3F485D91831CCF100A68C03 /* Gnomonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gnomonic.cpp; sourceTree = "<group>"; };
+		E3F485DA1831CCF100A68C03 /* Gnomonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gnomonic.h; sourceTree = "<group>"; };
+		E3F485DC1831CCF100A68C03 /* VanDerGrinten.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VanDerGrinten.cpp; sourceTree = "<group>"; };
+		E3F485DD1831CCF100A68C03 /* VanDerGrinten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VanDerGrinten.h; sourceTree = "<group>"; };
+		E3F485DF1831CCF100A68C03 /* LambertConformalConic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = LambertConformalConic.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485E01831CCF100A68C03 /* LambertConformalConic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LambertConformalConic.h; sourceTree = "<group>"; };
+		E3F485E21831CCF100A68C03 /* LocalCartesian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = LocalCartesian.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485E31831CCF100A68C03 /* LocalCartesian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalCartesian.h; sourceTree = "<group>"; };
+		E3F485E51831CCF100A68C03 /* Mercator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mercator.cpp; sourceTree = "<group>"; };
+		E3F485E61831CCF100A68C03 /* Mercator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mercator.h; sourceTree = "<group>"; };
+		E3F485E81831CCF100A68C03 /* MGRS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRS.cpp; sourceTree = "<group>"; };
+		E3F485E91831CCF100A68C03 /* MGRS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRS.h; sourceTree = "<group>"; };
+		E3F485EB1831CCF100A68C03 /* MillerCylindrical.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MillerCylindrical.cpp; sourceTree = "<group>"; };
+		E3F485EC1831CCF100A68C03 /* MillerCylindrical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MillerCylindrical.h; sourceTree = "<group>"; };
+		E3F485EE1831CCF100A68C03 /* CoordinateSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoordinateSystem.cpp; sourceTree = "<group>"; };
+		E3F485EF1831CCF100A68C03 /* CoordinateSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateSystem.h; sourceTree = "<group>"; };
+		E3F485F11831CCF100A68C03 /* Mollweide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mollweide.cpp; sourceTree = "<group>"; };
+		E3F485F21831CCF100A68C03 /* Mollweide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mollweide.h; sourceTree = "<group>"; };
+		E3F485F41831CCF100A68C03 /* Neys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Neys.cpp; sourceTree = "<group>"; };
+		E3F485F51831CCF100A68C03 /* Neys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neys.h; sourceTree = "<group>"; };
+		E3F485F71831CCF100A68C03 /* NZMG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = NZMG.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F485F81831CCF100A68C03 /* NZMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZMG.h; sourceTree = "<group>"; };
+		E3F485FA1831CCF100A68C03 /* ObliqueMercator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObliqueMercator.cpp; sourceTree = "<group>"; };
+		E3F485FB1831CCF100A68C03 /* ObliqueMercator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObliqueMercator.h; sourceTree = "<group>"; };
+		E3F485FD1831CCF100A68C03 /* Orthographic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Orthographic.cpp; sourceTree = "<group>"; };
+		E3F485FE1831CCF100A68C03 /* Orthographic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orthographic.h; sourceTree = "<group>"; };
+		E3F486001831CCF100A68C03 /* PolarStereographic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolarStereographic.cpp; sourceTree = "<group>"; };
+		E3F486011831CCF100A68C03 /* PolarStereographic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolarStereographic.h; sourceTree = "<group>"; };
+		E3F486031831CCF100A68C03 /* Polyconic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polyconic.cpp; sourceTree = "<group>"; };
+		E3F486041831CCF100A68C03 /* Polyconic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polyconic.h; sourceTree = "<group>"; };
+		E3F486061831CCF100A68C03 /* Sinusoidal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sinusoidal.cpp; sourceTree = "<group>"; };
+		E3F486071831CCF100A68C03 /* Sinusoidal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sinusoidal.h; sourceTree = "<group>"; };
+		E3F486091831CCF100A68C03 /* Stereographic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Stereographic.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F4860A1831CCF100A68C03 /* Stereographic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stereographic.h; sourceTree = "<group>"; };
+		E3F4860C1831CCF100A68C03 /* CCSThreadLock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSThreadLock.cpp; sourceTree = "<group>"; };
+		E3F4860D1831CCF100A68C03 /* CCSThreadLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSThreadLock.h; sourceTree = "<group>"; };
+		E3F4860E1831CCF100A68C03 /* CCSThreadMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCSThreadMutex.cpp; sourceTree = "<group>"; };
+		E3F4860F1831CCF100A68C03 /* CCSThreadMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSThreadMutex.h; sourceTree = "<group>"; };
+		E3F486111831CCF100A68C03 /* TransverseMercator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransverseMercator.cpp; sourceTree = "<group>"; };
+		E3F486121831CCF100A68C03 /* TransverseMercator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransverseMercator.h; sourceTree = "<group>"; };
+		E3F486141831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransverseCylindricalEqualArea.cpp; sourceTree = "<group>"; };
+		E3F486151831CCF100A68C03 /* TransverseCylindricalEqualArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransverseCylindricalEqualArea.h; sourceTree = "<group>"; };
+		E3F486171831CCF100A68C03 /* UPS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = UPS.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F486181831CCF100A68C03 /* UPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPS.h; sourceTree = "<group>"; };
+		E3F4861A1831CCF100A68C03 /* USNG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = USNG.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F4861B1831CCF100A68C03 /* USNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USNG.h; sourceTree = "<group>"; };
+		E3F4861D1831CCF100A68C03 /* UTM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTM.cpp; sourceTree = "<group>"; };
+		E3F4861E1831CCF100A68C03 /* UTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTM.h; sourceTree = "<group>"; };
+		E3F486201831CCF100A68C03 /* Accuracy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Accuracy.cpp; sourceTree = "<group>"; };
+		E3F486211831CCF100A68C03 /* Accuracy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accuracy.h; sourceTree = "<group>"; };
+		E3F486221831CCF100A68C03 /* BNGCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BNGCoordinates.cpp; sourceTree = "<group>"; };
+		E3F486231831CCF100A68C03 /* BNGCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNGCoordinates.h; sourceTree = "<group>"; };
+		E3F486241831CCF100A68C03 /* CartesianCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CartesianCoordinates.cpp; sourceTree = "<group>"; };
+		E3F486251831CCF100A68C03 /* CartesianCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartesianCoordinates.h; sourceTree = "<group>"; };
+		E3F486261831CCF100A68C03 /* CoordinateTuple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoordinateTuple.cpp; sourceTree = "<group>"; };
+		E3F486271831CCF100A68C03 /* CoordinateTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateTuple.h; sourceTree = "<group>"; };
+		E3F486281831CCF100A68C03 /* GARSCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GARSCoordinates.cpp; sourceTree = "<group>"; };
+		E3F486291831CCF100A68C03 /* GARSCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GARSCoordinates.h; sourceTree = "<group>"; };
+		E3F4862A1831CCF100A68C03 /* GeodeticCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeodeticCoordinates.cpp; sourceTree = "<group>"; };
+		E3F4862B1831CCF100A68C03 /* GeodeticCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeodeticCoordinates.h; sourceTree = "<group>"; };
+		E3F4862C1831CCF100A68C03 /* GEOREFCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GEOREFCoordinates.cpp; sourceTree = "<group>"; };
+		E3F4862D1831CCF100A68C03 /* GEOREFCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEOREFCoordinates.h; sourceTree = "<group>"; };
+		E3F4862E1831CCF100A68C03 /* MapProjectionCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapProjectionCoordinates.cpp; sourceTree = "<group>"; };
+		E3F4862F1831CCF100A68C03 /* MapProjectionCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapProjectionCoordinates.h; sourceTree = "<group>"; };
+		E3F486301831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRSorUSNGCoordinates.cpp; sourceTree = "<group>"; };
+		E3F486311831CCF100A68C03 /* MGRSorUSNGCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRSorUSNGCoordinates.h; sourceTree = "<group>"; };
+		E3F486321831CCF100A68C03 /* UPSCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UPSCoordinates.cpp; sourceTree = "<group>"; };
+		E3F486331831CCF100A68C03 /* UPSCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPSCoordinates.h; sourceTree = "<group>"; };
+		E3F486341831CCF100A68C03 /* UTMCoordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UTMCoordinates.cpp; sourceTree = "<group>"; };
+		E3F486351831CCF100A68C03 /* UTMCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTMCoordinates.h; sourceTree = "<group>"; };
+		E3F486361831CCF100A68C03 /* DatumLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DatumLibrary.cpp; sourceTree = "<group>"; };
+		E3F486371831CCF100A68C03 /* DatumLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatumLibrary.h; sourceTree = "<group>"; };
+		E3F486381831CCF100A68C03 /* DtccApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DtccApi.h; sourceTree = "<group>"; };
+		E3F486391831CCF100A68C03 /* egm2008_aoi_grid_package.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = egm2008_aoi_grid_package.cpp; sourceTree = "<group>"; };
+		E3F4863A1831CCF100A68C03 /* egm2008_aoi_grid_package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = egm2008_aoi_grid_package.h; sourceTree = "<group>"; };
+		E3F4863B1831CCF100A68C03 /* egm2008_full_grid_package.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = egm2008_full_grid_package.cpp; sourceTree = "<group>"; };
+		E3F4863C1831CCF100A68C03 /* egm2008_full_grid_package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = egm2008_full_grid_package.h; sourceTree = "<group>"; };
+		E3F4863D1831CCF100A68C03 /* egm2008_geoid_grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = egm2008_geoid_grid.cpp; sourceTree = "<group>"; };
+		E3F4863E1831CCF100A68C03 /* egm2008_geoid_grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = egm2008_geoid_grid.h; sourceTree = "<group>"; };
+		E3F4863F1831CCF100A68C03 /* EllipsoidLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EllipsoidLibrary.cpp; sourceTree = "<group>"; };
+		E3F486401831CCF100A68C03 /* EllipsoidLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipsoidLibrary.h; sourceTree = "<group>"; };
+		E3F486421831CCF100A68C03 /* CoordinateType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateType.h; sourceTree = "<group>"; };
+		E3F486431831CCF100A68C03 /* DatumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatumType.h; sourceTree = "<group>"; };
+		E3F486441831CCF100A68C03 /* HeightType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightType.h; sourceTree = "<group>"; };
+		E3F486451831CCF100A68C03 /* Precision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precision.h; sourceTree = "<group>"; };
+		E3F486461831CCF100A68C03 /* SourceOrTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceOrTarget.h; sourceTree = "<group>"; };
+		E3F486481831CCF100A68C03 /* CoordinateConversionException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateConversionException.h; sourceTree = "<group>"; };
+		E3F486491831CCF100A68C03 /* ErrorMessages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ErrorMessages.cpp; sourceTree = "<group>"; };
+		E3F4864A1831CCF100A68C03 /* ErrorMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorMessages.h; sourceTree = "<group>"; };
+		E3F4864B1831CCF100A68C03 /* WarningMessages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WarningMessages.cpp; sourceTree = "<group>"; };
+		E3F4864C1831CCF100A68C03 /* WarningMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningMessages.h; sourceTree = "<group>"; };
+		E3F4864D1831CCF100A68C03 /* GeoidLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = GeoidLibrary.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		E3F4864E1831CCF100A68C03 /* GeoidLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoidLibrary.h; sourceTree = "<group>"; };
+		E3F5504A190773F800D37493 /* Variant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Variant.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3792D74183835140006E2D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EAD681184CB45200D9206C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F484031831CB9F00A68C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E31BE418183B08C700BE971B /* hotineomerc */ = {
+			isa = PBXGroup;
+			children = (
+				E31BE419183B08C700BE971B /* HotineObliqueMercator.cpp */,
+				E31BE41A183B08C700BE971B /* HotineObliqueMercator.h */,
+			);
+			path = hotineomerc;
+			sourceTree = "<group>";
+		};
+		E3F483FD1831CB9F00A68C03 = {
+			isa = PBXGroup;
+			children = (
+				E3F485831831CCF000A68C03 /* dtcc */,
+				E3F484071831CB9F00A68C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3F484071831CB9F00A68C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3F484061831CB9F00A68C03 /* libMSPdtcc.dylib */,
+				E3792D77183835140006E2D0 /* libMSPdtcc_static.a */,
+				E3EAD684184CB45200D9206C /* libMSPdtcc_static_iOS7.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3F485831831CCF000A68C03 /* dtcc */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485841831CCF000A68C03 /* CoordinateSystemParameters */,
+				E3F485A51831CCF100A68C03 /* CoordinateSystems */,
+				E3F4861F1831CCF100A68C03 /* CoordinateTuples */,
+				E3F486361831CCF100A68C03 /* DatumLibrary.cpp */,
+				E3F486371831CCF100A68C03 /* DatumLibrary.h */,
+				E3F486381831CCF100A68C03 /* DtccApi.h */,
+				E3F486391831CCF100A68C03 /* egm2008_aoi_grid_package.cpp */,
+				E3F4863A1831CCF100A68C03 /* egm2008_aoi_grid_package.h */,
+				E3F4863B1831CCF100A68C03 /* egm2008_full_grid_package.cpp */,
+				E3F4863C1831CCF100A68C03 /* egm2008_full_grid_package.h */,
+				E3F4863D1831CCF100A68C03 /* egm2008_geoid_grid.cpp */,
+				E3F4863E1831CCF100A68C03 /* egm2008_geoid_grid.h */,
+				E3F4863F1831CCF100A68C03 /* EllipsoidLibrary.cpp */,
+				E3F486401831CCF100A68C03 /* EllipsoidLibrary.h */,
+				E3F486411831CCF100A68C03 /* Enumerations */,
+				E3F486471831CCF100A68C03 /* Exception */,
+				E3F4864D1831CCF100A68C03 /* GeoidLibrary.cpp */,
+				E3F4864E1831CCF100A68C03 /* GeoidLibrary.h */,
+			);
+			name = dtcc;
+			path = ../../geotrans3.3/CCS/src/dtcc;
+			sourceTree = "<group>";
+		};
+		E3F485841831CCF000A68C03 /* CoordinateSystemParameters */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485851831CCF000A68C03 /* CoordinateSystemParameters.cpp */,
+				E3F485861831CCF000A68C03 /* CoordinateSystemParameters.h */,
+				E3F485871831CCF000A68C03 /* EllipsoidParameters.cpp */,
+				E3F485881831CCF000A68C03 /* EllipsoidParameters.h */,
+				E3F485891831CCF000A68C03 /* EquidistantCylindricalParameters.cpp */,
+				E3F4858A1831CCF000A68C03 /* EquidistantCylindricalParameters.h */,
+				E3F4858B1831CCF100A68C03 /* GeodeticParameters.cpp */,
+				E3F4858C1831CCF100A68C03 /* GeodeticParameters.h */,
+				E3F4858D1831CCF100A68C03 /* LocalCartesianParameters.cpp */,
+				E3F4858E1831CCF100A68C03 /* LocalCartesianParameters.h */,
+				E3F4858F1831CCF100A68C03 /* MapProjection3Parameters.cpp */,
+				E3F485901831CCF100A68C03 /* MapProjection3Parameters.h */,
+				E3F485911831CCF100A68C03 /* MapProjection4Parameters.cpp */,
+				E3F485921831CCF100A68C03 /* MapProjection4Parameters.h */,
+				E3F485931831CCF100A68C03 /* MapProjection5Parameters.cpp */,
+				E3F485941831CCF100A68C03 /* MapProjection5Parameters.h */,
+				E3F485951831CCF100A68C03 /* MapProjection6Parameters.cpp */,
+				E3F485961831CCF100A68C03 /* MapProjection6Parameters.h */,
+				E3F485971831CCF100A68C03 /* MercatorScaleFactorParameters.cpp */,
+				E3F485981831CCF100A68C03 /* MercatorScaleFactorParameters.h */,
+				E3F485991831CCF100A68C03 /* MercatorStandardParallelParameters.cpp */,
+				E3F4859A1831CCF100A68C03 /* MercatorStandardParallelParameters.h */,
+				E3F4859B1831CCF100A68C03 /* NeysParameters.cpp */,
+				E3F4859C1831CCF100A68C03 /* NeysParameters.h */,
+				E3F4859D1831CCF100A68C03 /* ObliqueMercatorParameters.cpp */,
+				E3F4859E1831CCF100A68C03 /* ObliqueMercatorParameters.h */,
+				E3F4859F1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp */,
+				E3F485A01831CCF100A68C03 /* PolarStereographicScaleFactorParameters.h */,
+				E3F485A11831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp */,
+				E3F485A21831CCF100A68C03 /* PolarStereographicStandardParallelParameters.h */,
+				E3F485A31831CCF100A68C03 /* UTMParameters.cpp */,
+				E3F485A41831CCF100A68C03 /* UTMParameters.h */,
+			);
+			path = CoordinateSystemParameters;
+			sourceTree = "<group>";
+		};
+		E3F485A51831CCF100A68C03 /* CoordinateSystems */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485A61831CCF100A68C03 /* albers */,
+				E3F485A91831CCF100A68C03 /* azeq */,
+				E3F485AC1831CCF100A68C03 /* bng */,
+				E3F485AF1831CCF100A68C03 /* bonne */,
+				E3F485B21831CCF100A68C03 /* cassini */,
+				E3F485B51831CCF100A68C03 /* cyleqa */,
+				E3F485B81831CCF100A68C03 /* datum */,
+				E3F485C11831CCF100A68C03 /* eckert4 */,
+				E3F485C41831CCF100A68C03 /* eckert6 */,
+				E3F485C71831CCF100A68C03 /* ellipse */,
+				E3F485CC1831CCF100A68C03 /* eqdcyl */,
+				E3F485CF1831CCF100A68C03 /* gars */,
+				E3F485D21831CCF100A68C03 /* geocent */,
+				E3F485D51831CCF100A68C03 /* georef */,
+				E3F485D81831CCF100A68C03 /* gnomonic */,
+				E3F485DB1831CCF100A68C03 /* grinten */,
+				E31BE418183B08C700BE971B /* hotineomerc */,
+				E3F485DE1831CCF100A68C03 /* lambert */,
+				E3F485E11831CCF100A68C03 /* loccart */,
+				E3F485E41831CCF100A68C03 /* mercator */,
+				E3F485E71831CCF100A68C03 /* mgrs */,
+				E3F485EA1831CCF100A68C03 /* miller */,
+				E3F485ED1831CCF100A68C03 /* misc */,
+				E3F485F01831CCF100A68C03 /* mollweid */,
+				E3F485F31831CCF100A68C03 /* neys */,
+				E3F485F61831CCF100A68C03 /* nzmg */,
+				E3F485F91831CCF100A68C03 /* omerc */,
+				E3F485FC1831CCF100A68C03 /* orthogr */,
+				E3F485FF1831CCF100A68C03 /* polarst */,
+				E3F486021831CCF100A68C03 /* polycon */,
+				E3F486051831CCF100A68C03 /* sinusoid */,
+				E3F486081831CCF100A68C03 /* stereogr */,
+				E3F4860B1831CCF100A68C03 /* threads */,
+				E3F486101831CCF100A68C03 /* tranmerc */,
+				E3F486131831CCF100A68C03 /* trcyleqa */,
+				E3F486161831CCF100A68C03 /* ups */,
+				E3F486191831CCF100A68C03 /* usng */,
+				E3F4861C1831CCF100A68C03 /* utm */,
+			);
+			path = CoordinateSystems;
+			sourceTree = "<group>";
+		};
+		E3F485A61831CCF100A68C03 /* albers */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485A71831CCF100A68C03 /* AlbersEqualAreaConic.cpp */,
+				E3F485A81831CCF100A68C03 /* AlbersEqualAreaConic.h */,
+			);
+			path = albers;
+			sourceTree = "<group>";
+		};
+		E3F485A91831CCF100A68C03 /* azeq */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485AA1831CCF100A68C03 /* AzimuthalEquidistant.cpp */,
+				E3F485AB1831CCF100A68C03 /* AzimuthalEquidistant.h */,
+			);
+			path = azeq;
+			sourceTree = "<group>";
+		};
+		E3F485AC1831CCF100A68C03 /* bng */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485AD1831CCF100A68C03 /* BritishNationalGrid.cpp */,
+				E3F485AE1831CCF100A68C03 /* BritishNationalGrid.h */,
+			);
+			path = bng;
+			sourceTree = "<group>";
+		};
+		E3F485AF1831CCF100A68C03 /* bonne */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485B01831CCF100A68C03 /* Bonne.cpp */,
+				E3F485B11831CCF100A68C03 /* Bonne.h */,
+			);
+			path = bonne;
+			sourceTree = "<group>";
+		};
+		E3F485B21831CCF100A68C03 /* cassini */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485B31831CCF100A68C03 /* Cassini.cpp */,
+				E3F485B41831CCF100A68C03 /* Cassini.h */,
+			);
+			path = cassini;
+			sourceTree = "<group>";
+		};
+		E3F485B51831CCF100A68C03 /* cyleqa */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485B61831CCF100A68C03 /* CylindricalEqualArea.cpp */,
+				E3F485B71831CCF100A68C03 /* CylindricalEqualArea.h */,
+			);
+			path = cyleqa;
+			sourceTree = "<group>";
+		};
+		E3F485B81831CCF100A68C03 /* datum */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485B91831CCF100A68C03 /* Datum.cpp */,
+				E3F485BA1831CCF100A68C03 /* Datum.h */,
+				E3F485BB1831CCF100A68C03 /* DatumLibraryImplementation.cpp */,
+				E3F485BC1831CCF100A68C03 /* DatumLibraryImplementation.h */,
+				E3F485BD1831CCF100A68C03 /* SevenParameterDatum.cpp */,
+				E3F485BE1831CCF100A68C03 /* SevenParameterDatum.h */,
+				E3F485BF1831CCF100A68C03 /* ThreeParameterDatum.cpp */,
+				E3F485C01831CCF100A68C03 /* ThreeParameterDatum.h */,
+			);
+			path = datum;
+			sourceTree = "<group>";
+		};
+		E3F485C11831CCF100A68C03 /* eckert4 */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485C21831CCF100A68C03 /* Eckert4.cpp */,
+				E3F485C31831CCF100A68C03 /* Eckert4.h */,
+			);
+			path = eckert4;
+			sourceTree = "<group>";
+		};
+		E3F485C41831CCF100A68C03 /* eckert6 */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485C51831CCF100A68C03 /* Eckert6.cpp */,
+				E3F485C61831CCF100A68C03 /* Eckert6.h */,
+			);
+			path = eckert6;
+			sourceTree = "<group>";
+		};
+		E3F485C71831CCF100A68C03 /* ellipse */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485C81831CCF100A68C03 /* Ellipsoid.cpp */,
+				E3F485C91831CCF100A68C03 /* Ellipsoid.h */,
+				E3F485CA1831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp */,
+				E3F485CB1831CCF100A68C03 /* EllipsoidLibraryImplementation.h */,
+			);
+			path = ellipse;
+			sourceTree = "<group>";
+		};
+		E3F485CC1831CCF100A68C03 /* eqdcyl */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485CD1831CCF100A68C03 /* EquidistantCylindrical.cpp */,
+				E3F485CE1831CCF100A68C03 /* EquidistantCylindrical.h */,
+			);
+			path = eqdcyl;
+			sourceTree = "<group>";
+		};
+		E3F485CF1831CCF100A68C03 /* gars */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485D01831CCF100A68C03 /* GARS.cpp */,
+				E3F485D11831CCF100A68C03 /* GARS.h */,
+			);
+			path = gars;
+			sourceTree = "<group>";
+		};
+		E3F485D21831CCF100A68C03 /* geocent */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485D31831CCF100A68C03 /* Geocentric.cpp */,
+				E3F485D41831CCF100A68C03 /* Geocentric.h */,
+			);
+			path = geocent;
+			sourceTree = "<group>";
+		};
+		E3F485D51831CCF100A68C03 /* georef */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485D61831CCF100A68C03 /* GEOREF.cpp */,
+				E3F485D71831CCF100A68C03 /* GEOREF.h */,
+			);
+			path = georef;
+			sourceTree = "<group>";
+		};
+		E3F485D81831CCF100A68C03 /* gnomonic */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485D91831CCF100A68C03 /* Gnomonic.cpp */,
+				E3F485DA1831CCF100A68C03 /* Gnomonic.h */,
+			);
+			path = gnomonic;
+			sourceTree = "<group>";
+		};
+		E3F485DB1831CCF100A68C03 /* grinten */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485DC1831CCF100A68C03 /* VanDerGrinten.cpp */,
+				E3F485DD1831CCF100A68C03 /* VanDerGrinten.h */,
+			);
+			path = grinten;
+			sourceTree = "<group>";
+		};
+		E3F485DE1831CCF100A68C03 /* lambert */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485DF1831CCF100A68C03 /* LambertConformalConic.cpp */,
+				E3F485E01831CCF100A68C03 /* LambertConformalConic.h */,
+			);
+			path = lambert;
+			sourceTree = "<group>";
+		};
+		E3F485E11831CCF100A68C03 /* loccart */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485E21831CCF100A68C03 /* LocalCartesian.cpp */,
+				E3F485E31831CCF100A68C03 /* LocalCartesian.h */,
+			);
+			path = loccart;
+			sourceTree = "<group>";
+		};
+		E3F485E41831CCF100A68C03 /* mercator */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485E51831CCF100A68C03 /* Mercator.cpp */,
+				E3F485E61831CCF100A68C03 /* Mercator.h */,
+			);
+			path = mercator;
+			sourceTree = "<group>";
+		};
+		E3F485E71831CCF100A68C03 /* mgrs */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485E81831CCF100A68C03 /* MGRS.cpp */,
+				E3F485E91831CCF100A68C03 /* MGRS.h */,
+			);
+			path = mgrs;
+			sourceTree = "<group>";
+		};
+		E3F485EA1831CCF100A68C03 /* miller */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485EB1831CCF100A68C03 /* MillerCylindrical.cpp */,
+				E3F485EC1831CCF100A68C03 /* MillerCylindrical.h */,
+			);
+			path = miller;
+			sourceTree = "<group>";
+		};
+		E3F485ED1831CCF100A68C03 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485EE1831CCF100A68C03 /* CoordinateSystem.cpp */,
+				E3F485EF1831CCF100A68C03 /* CoordinateSystem.h */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		E3F485F01831CCF100A68C03 /* mollweid */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485F11831CCF100A68C03 /* Mollweide.cpp */,
+				E3F485F21831CCF100A68C03 /* Mollweide.h */,
+			);
+			path = mollweid;
+			sourceTree = "<group>";
+		};
+		E3F485F31831CCF100A68C03 /* neys */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485F41831CCF100A68C03 /* Neys.cpp */,
+				E3F485F51831CCF100A68C03 /* Neys.h */,
+			);
+			path = neys;
+			sourceTree = "<group>";
+		};
+		E3F485F61831CCF100A68C03 /* nzmg */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485F71831CCF100A68C03 /* NZMG.cpp */,
+				E3F485F81831CCF100A68C03 /* NZMG.h */,
+			);
+			path = nzmg;
+			sourceTree = "<group>";
+		};
+		E3F485F91831CCF100A68C03 /* omerc */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485FA1831CCF100A68C03 /* ObliqueMercator.cpp */,
+				E3F485FB1831CCF100A68C03 /* ObliqueMercator.h */,
+			);
+			path = omerc;
+			sourceTree = "<group>";
+		};
+		E3F485FC1831CCF100A68C03 /* orthogr */ = {
+			isa = PBXGroup;
+			children = (
+				E3F485FD1831CCF100A68C03 /* Orthographic.cpp */,
+				E3F485FE1831CCF100A68C03 /* Orthographic.h */,
+			);
+			path = orthogr;
+			sourceTree = "<group>";
+		};
+		E3F485FF1831CCF100A68C03 /* polarst */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486001831CCF100A68C03 /* PolarStereographic.cpp */,
+				E3F486011831CCF100A68C03 /* PolarStereographic.h */,
+			);
+			path = polarst;
+			sourceTree = "<group>";
+		};
+		E3F486021831CCF100A68C03 /* polycon */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486031831CCF100A68C03 /* Polyconic.cpp */,
+				E3F486041831CCF100A68C03 /* Polyconic.h */,
+			);
+			path = polycon;
+			sourceTree = "<group>";
+		};
+		E3F486051831CCF100A68C03 /* sinusoid */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486061831CCF100A68C03 /* Sinusoidal.cpp */,
+				E3F486071831CCF100A68C03 /* Sinusoidal.h */,
+			);
+			path = sinusoid;
+			sourceTree = "<group>";
+		};
+		E3F486081831CCF100A68C03 /* stereogr */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486091831CCF100A68C03 /* Stereographic.cpp */,
+				E3F4860A1831CCF100A68C03 /* Stereographic.h */,
+			);
+			path = stereogr;
+			sourceTree = "<group>";
+		};
+		E3F4860B1831CCF100A68C03 /* threads */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4860C1831CCF100A68C03 /* CCSThreadLock.cpp */,
+				E3F4860D1831CCF100A68C03 /* CCSThreadLock.h */,
+				E3F4860E1831CCF100A68C03 /* CCSThreadMutex.cpp */,
+				E3F4860F1831CCF100A68C03 /* CCSThreadMutex.h */,
+			);
+			path = threads;
+			sourceTree = "<group>";
+		};
+		E3F486101831CCF100A68C03 /* tranmerc */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486111831CCF100A68C03 /* TransverseMercator.cpp */,
+				E3F486121831CCF100A68C03 /* TransverseMercator.h */,
+			);
+			path = tranmerc;
+			sourceTree = "<group>";
+		};
+		E3F486131831CCF100A68C03 /* trcyleqa */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486141831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp */,
+				E3F486151831CCF100A68C03 /* TransverseCylindricalEqualArea.h */,
+			);
+			path = trcyleqa;
+			sourceTree = "<group>";
+		};
+		E3F486161831CCF100A68C03 /* ups */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486171831CCF100A68C03 /* UPS.cpp */,
+				E3F486181831CCF100A68C03 /* UPS.h */,
+			);
+			path = ups;
+			sourceTree = "<group>";
+		};
+		E3F486191831CCF100A68C03 /* usng */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4861A1831CCF100A68C03 /* USNG.cpp */,
+				E3F4861B1831CCF100A68C03 /* USNG.h */,
+			);
+			path = usng;
+			sourceTree = "<group>";
+		};
+		E3F4861C1831CCF100A68C03 /* utm */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4861D1831CCF100A68C03 /* UTM.cpp */,
+				E3F4861E1831CCF100A68C03 /* UTM.h */,
+			);
+			path = utm;
+			sourceTree = "<group>";
+		};
+		E3F4861F1831CCF100A68C03 /* CoordinateTuples */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486201831CCF100A68C03 /* Accuracy.cpp */,
+				E3F486211831CCF100A68C03 /* Accuracy.h */,
+				E3F486221831CCF100A68C03 /* BNGCoordinates.cpp */,
+				E3F486231831CCF100A68C03 /* BNGCoordinates.h */,
+				E3F486241831CCF100A68C03 /* CartesianCoordinates.cpp */,
+				E3F486251831CCF100A68C03 /* CartesianCoordinates.h */,
+				E3F486261831CCF100A68C03 /* CoordinateTuple.cpp */,
+				E3F486271831CCF100A68C03 /* CoordinateTuple.h */,
+				E3F486281831CCF100A68C03 /* GARSCoordinates.cpp */,
+				E3F486291831CCF100A68C03 /* GARSCoordinates.h */,
+				E3F4862A1831CCF100A68C03 /* GeodeticCoordinates.cpp */,
+				E3F4862B1831CCF100A68C03 /* GeodeticCoordinates.h */,
+				E3F4862C1831CCF100A68C03 /* GEOREFCoordinates.cpp */,
+				E3F4862D1831CCF100A68C03 /* GEOREFCoordinates.h */,
+				E3F4862E1831CCF100A68C03 /* MapProjectionCoordinates.cpp */,
+				E3F4862F1831CCF100A68C03 /* MapProjectionCoordinates.h */,
+				E3F486301831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp */,
+				E3F486311831CCF100A68C03 /* MGRSorUSNGCoordinates.h */,
+				E3F486321831CCF100A68C03 /* UPSCoordinates.cpp */,
+				E3F486331831CCF100A68C03 /* UPSCoordinates.h */,
+				E3F486341831CCF100A68C03 /* UTMCoordinates.cpp */,
+				E3F486351831CCF100A68C03 /* UTMCoordinates.h */,
+			);
+			path = CoordinateTuples;
+			sourceTree = "<group>";
+		};
+		E3F486411831CCF100A68C03 /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486421831CCF100A68C03 /* CoordinateType.h */,
+				E3F486431831CCF100A68C03 /* DatumType.h */,
+				E3F486441831CCF100A68C03 /* HeightType.h */,
+				E3F486451831CCF100A68C03 /* Precision.h */,
+				E3F486461831CCF100A68C03 /* SourceOrTarget.h */,
+				E3F5504A190773F800D37493 /* Variant.h */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		E3F486471831CCF100A68C03 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				E3F486481831CCF100A68C03 /* CoordinateConversionException.h */,
+				E3F486491831CCF100A68C03 /* ErrorMessages.cpp */,
+				E3F4864A1831CCF100A68C03 /* ErrorMessages.h */,
+				E3F4864B1831CCF100A68C03 /* WarningMessages.cpp */,
+				E3F4864C1831CCF100A68C03 /* WarningMessages.h */,
+			);
+			path = Exception;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E3792D75183835140006E2D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31BE41E183B08C700BE971B /* HotineObliqueMercator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EAD682184CB45200D9206C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EAD6E2184CB63800D9206C /* CoordinateSystemParameters.h in Headers */,
+				E3EAD6E3184CB63800D9206C /* EllipsoidParameters.h in Headers */,
+				E3EAD6E4184CB63800D9206C /* EquidistantCylindricalParameters.h in Headers */,
+				E3EAD6E5184CB63800D9206C /* GeodeticParameters.h in Headers */,
+				E3EAD6E6184CB63800D9206C /* LocalCartesianParameters.h in Headers */,
+				E3EAD6E7184CB63800D9206C /* MapProjection3Parameters.h in Headers */,
+				E3EAD6E8184CB63800D9206C /* MapProjection4Parameters.h in Headers */,
+				E3EAD6E9184CB63800D9206C /* MapProjection5Parameters.h in Headers */,
+				E3EAD6EA184CB63800D9206C /* MapProjection6Parameters.h in Headers */,
+				E3EAD6EB184CB63800D9206C /* MercatorScaleFactorParameters.h in Headers */,
+				E3EAD6EC184CB63800D9206C /* MercatorStandardParallelParameters.h in Headers */,
+				E3EAD6ED184CB63800D9206C /* NeysParameters.h in Headers */,
+				E3EAD6EE184CB63800D9206C /* ObliqueMercatorParameters.h in Headers */,
+				E3EAD6EF184CB63800D9206C /* PolarStereographicScaleFactorParameters.h in Headers */,
+				E3EAD6F0184CB63800D9206C /* PolarStereographicStandardParallelParameters.h in Headers */,
+				E3EAD6F1184CB63800D9206C /* UTMParameters.h in Headers */,
+				E3EAD6F2184CB63800D9206C /* AlbersEqualAreaConic.h in Headers */,
+				E3EAD6F3184CB63800D9206C /* AzimuthalEquidistant.h in Headers */,
+				E3EAD6F4184CB63800D9206C /* BritishNationalGrid.h in Headers */,
+				E3EAD6F5184CB63800D9206C /* Bonne.h in Headers */,
+				E3EAD6F6184CB63800D9206C /* Cassini.h in Headers */,
+				E3EAD6F7184CB63800D9206C /* CylindricalEqualArea.h in Headers */,
+				E3EAD6F8184CB63800D9206C /* Datum.h in Headers */,
+				E3EAD6F9184CB63800D9206C /* DatumLibraryImplementation.h in Headers */,
+				E3EAD6FA184CB63800D9206C /* SevenParameterDatum.h in Headers */,
+				E3EAD6FB184CB63800D9206C /* ThreeParameterDatum.h in Headers */,
+				E3EAD6FC184CB63800D9206C /* Eckert4.h in Headers */,
+				E3EAD6FD184CB63800D9206C /* Eckert6.h in Headers */,
+				E3EAD6FE184CB63800D9206C /* Ellipsoid.h in Headers */,
+				E3EAD6FF184CB63800D9206C /* EllipsoidLibraryImplementation.h in Headers */,
+				E3EAD700184CB63800D9206C /* EquidistantCylindrical.h in Headers */,
+				E3EAD701184CB63800D9206C /* GARS.h in Headers */,
+				E3EAD702184CB63800D9206C /* Geocentric.h in Headers */,
+				E3EAD703184CB63800D9206C /* GEOREF.h in Headers */,
+				E3EAD704184CB63800D9206C /* Gnomonic.h in Headers */,
+				E3EAD705184CB63800D9206C /* VanDerGrinten.h in Headers */,
+				E3EAD706184CB63800D9206C /* HotineObliqueMercator.h in Headers */,
+				E3EAD707184CB63800D9206C /* LambertConformalConic.h in Headers */,
+				E3EAD708184CB63800D9206C /* LocalCartesian.h in Headers */,
+				E3EAD709184CB63800D9206C /* Mercator.h in Headers */,
+				E3EAD70A184CB63800D9206C /* MGRS.h in Headers */,
+				E3EAD70B184CB63800D9206C /* MillerCylindrical.h in Headers */,
+				E3EAD70C184CB63800D9206C /* CoordinateSystem.h in Headers */,
+				E3EAD70D184CB63800D9206C /* Mollweide.h in Headers */,
+				E3EAD70E184CB63800D9206C /* Neys.h in Headers */,
+				E3EAD70F184CB63800D9206C /* NZMG.h in Headers */,
+				E3EAD710184CB63800D9206C /* ObliqueMercator.h in Headers */,
+				E3EAD711184CB63800D9206C /* Orthographic.h in Headers */,
+				E3EAD712184CB63800D9206C /* PolarStereographic.h in Headers */,
+				E3EAD713184CB63800D9206C /* Polyconic.h in Headers */,
+				E3EAD714184CB63800D9206C /* Sinusoidal.h in Headers */,
+				E3EAD715184CB63800D9206C /* Stereographic.h in Headers */,
+				E3EAD716184CB63800D9206C /* CCSThreadLock.h in Headers */,
+				E3EAD717184CB63800D9206C /* CCSThreadMutex.h in Headers */,
+				E3EAD718184CB63800D9206C /* TransverseMercator.h in Headers */,
+				E3EAD719184CB63800D9206C /* TransverseCylindricalEqualArea.h in Headers */,
+				E3EAD71A184CB63800D9206C /* UPS.h in Headers */,
+				E3EAD71B184CB63800D9206C /* USNG.h in Headers */,
+				E3EAD71C184CB63800D9206C /* UTM.h in Headers */,
+				E3EAD71D184CB63800D9206C /* Accuracy.h in Headers */,
+				E3EAD71E184CB63800D9206C /* BNGCoordinates.h in Headers */,
+				E3EAD71F184CB63800D9206C /* CartesianCoordinates.h in Headers */,
+				E3EAD720184CB63800D9206C /* CoordinateTuple.h in Headers */,
+				E3EAD721184CB63800D9206C /* GARSCoordinates.h in Headers */,
+				E3EAD722184CB63800D9206C /* GeodeticCoordinates.h in Headers */,
+				E3EAD723184CB63800D9206C /* GEOREFCoordinates.h in Headers */,
+				E3EAD724184CB63800D9206C /* MapProjectionCoordinates.h in Headers */,
+				E3EAD725184CB63800D9206C /* MGRSorUSNGCoordinates.h in Headers */,
+				E3EAD726184CB63800D9206C /* UPSCoordinates.h in Headers */,
+				E3EAD727184CB63800D9206C /* UTMCoordinates.h in Headers */,
+				E3EAD728184CB63800D9206C /* DatumLibrary.h in Headers */,
+				E3EAD729184CB63800D9206C /* DtccApi.h in Headers */,
+				E3EAD72A184CB63800D9206C /* egm2008_aoi_grid_package.h in Headers */,
+				E3EAD72B184CB63800D9206C /* egm2008_full_grid_package.h in Headers */,
+				E3EAD72C184CB63800D9206C /* egm2008_geoid_grid.h in Headers */,
+				E3EAD72D184CB63800D9206C /* EllipsoidLibrary.h in Headers */,
+				E3EAD72E184CB63800D9206C /* CoordinateType.h in Headers */,
+				E3EAD72F184CB63800D9206C /* DatumType.h in Headers */,
+				E3EAD730184CB63800D9206C /* HeightType.h in Headers */,
+				E3EAD731184CB63800D9206C /* Precision.h in Headers */,
+				E3EAD732184CB63800D9206C /* SourceOrTarget.h in Headers */,
+				E3EAD733184CB63800D9206C /* CoordinateConversionException.h in Headers */,
+				E3EAD734184CB63800D9206C /* ErrorMessages.h in Headers */,
+				E3EAD735184CB63800D9206C /* WarningMessages.h in Headers */,
+				E3EAD736184CB63800D9206C /* GeoidLibrary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F484041831CB9F00A68C03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F486E41831CCF100A68C03 /* CoordinateType.h in Headers */,
+				E3F486DA1831CCF100A68C03 /* DatumLibrary.h in Headers */,
+				E3F486801831CCF100A68C03 /* SevenParameterDatum.h in Headers */,
+				E3F486E61831CCF100A68C03 /* HeightType.h in Headers */,
+				E3F486521831CCF100A68C03 /* EllipsoidParameters.h in Headers */,
+				E3F486EF1831CCF100A68C03 /* GeoidLibrary.h in Headers */,
+				E3F486C01831CCF100A68C03 /* USNG.h in Headers */,
+				E3F486661831CCF100A68C03 /* NeysParameters.h in Headers */,
+				E3F486721831CCF100A68C03 /* AzimuthalEquidistant.h in Headers */,
+				E3F4865C1831CCF100A68C03 /* MapProjection4Parameters.h in Headers */,
+				E3F4869E1831CCF100A68C03 /* MGRS.h in Headers */,
+				E3F486CA1831CCF100A68C03 /* CoordinateTuple.h in Headers */,
+				E3F486541831CCF100A68C03 /* EquidistantCylindricalParameters.h in Headers */,
+				E3F486A61831CCF100A68C03 /* Neys.h in Headers */,
+				E3F486E71831CCF100A68C03 /* Precision.h in Headers */,
+				E3F486CE1831CCF100A68C03 /* GeodeticCoordinates.h in Headers */,
+				E3F486E51831CCF100A68C03 /* DatumType.h in Headers */,
+				E3F486781831CCF100A68C03 /* Cassini.h in Headers */,
+				E3F486D41831CCF100A68C03 /* MGRSorUSNGCoordinates.h in Headers */,
+				E3F4868C1831CCF100A68C03 /* EquidistantCylindrical.h in Headers */,
+				E3F486821831CCF100A68C03 /* ThreeParameterDatum.h in Headers */,
+				E3F4868E1831CCF100A68C03 /* GARS.h in Headers */,
+				E3F486921831CCF100A68C03 /* GEOREF.h in Headers */,
+				E3F486BC1831CCF100A68C03 /* TransverseCylindricalEqualArea.h in Headers */,
+				E3F486B21831CCF100A68C03 /* Sinusoidal.h in Headers */,
+				E3F4866A1831CCF100A68C03 /* PolarStereographicScaleFactorParameters.h in Headers */,
+				E3F486681831CCF100A68C03 /* ObliqueMercatorParameters.h in Headers */,
+				E3F4867E1831CCF100A68C03 /* DatumLibraryImplementation.h in Headers */,
+				E3F486DF1831CCF100A68C03 /* egm2008_full_grid_package.h in Headers */,
+				E3F486E91831CCF100A68C03 /* CoordinateConversionException.h in Headers */,
+				E3F486561831CCF100A68C03 /* GeodeticParameters.h in Headers */,
+				E3F4867A1831CCF100A68C03 /* CylindricalEqualArea.h in Headers */,
+				E3F486901831CCF100A68C03 /* Geocentric.h in Headers */,
+				E3F486B01831CCF100A68C03 /* Polyconic.h in Headers */,
+				E3F486DD1831CCF100A68C03 /* egm2008_aoi_grid_package.h in Headers */,
+				E3F4866C1831CCF100A68C03 /* PolarStereographicStandardParallelParameters.h in Headers */,
+				E3F486C61831CCF100A68C03 /* BNGCoordinates.h in Headers */,
+				E3F486A81831CCF100A68C03 /* NZMG.h in Headers */,
+				E3F486AA1831CCF100A68C03 /* ObliqueMercator.h in Headers */,
+				E3F4865E1831CCF100A68C03 /* MapProjection5Parameters.h in Headers */,
+				E3F486861831CCF100A68C03 /* Eckert6.h in Headers */,
+				E3F486701831CCF100A68C03 /* AlbersEqualAreaConic.h in Headers */,
+				E31BE41D183B08C700BE971B /* HotineObliqueMercator.h in Headers */,
+				E3F486621831CCF100A68C03 /* MercatorScaleFactorParameters.h in Headers */,
+				E3F486641831CCF100A68C03 /* MercatorStandardParallelParameters.h in Headers */,
+				E3F486EB1831CCF100A68C03 /* ErrorMessages.h in Headers */,
+				E3F486D21831CCF100A68C03 /* MapProjectionCoordinates.h in Headers */,
+				E3F486941831CCF100A68C03 /* Gnomonic.h in Headers */,
+				E3F486C41831CCF100A68C03 /* Accuracy.h in Headers */,
+				E3F486981831CCF100A68C03 /* LambertConformalConic.h in Headers */,
+				E3F486DB1831CCF100A68C03 /* DtccApi.h in Headers */,
+				E3F4869C1831CCF100A68C03 /* Mercator.h in Headers */,
+				E3F486AC1831CCF100A68C03 /* Orthographic.h in Headers */,
+				E3F486E11831CCF100A68C03 /* egm2008_geoid_grid.h in Headers */,
+				E3F486A41831CCF100A68C03 /* Mollweide.h in Headers */,
+				E3F4867C1831CCF100A68C03 /* Datum.h in Headers */,
+				E3F486581831CCF100A68C03 /* LocalCartesianParameters.h in Headers */,
+				E3F4865A1831CCF100A68C03 /* MapProjection3Parameters.h in Headers */,
+				E3F486841831CCF100A68C03 /* Eckert4.h in Headers */,
+				E3F486D01831CCF100A68C03 /* GEOREFCoordinates.h in Headers */,
+				E3F4869A1831CCF100A68C03 /* LocalCartesian.h in Headers */,
+				E3F486741831CCF100A68C03 /* BritishNationalGrid.h in Headers */,
+				E3F4868A1831CCF100A68C03 /* EllipsoidLibraryImplementation.h in Headers */,
+				E3F486501831CCF100A68C03 /* CoordinateSystemParameters.h in Headers */,
+				E3F486AE1831CCF100A68C03 /* PolarStereographic.h in Headers */,
+				E3F486B41831CCF100A68C03 /* Stereographic.h in Headers */,
+				E3F486601831CCF100A68C03 /* MapProjection6Parameters.h in Headers */,
+				E3F486E81831CCF100A68C03 /* SourceOrTarget.h in Headers */,
+				E3F486961831CCF100A68C03 /* VanDerGrinten.h in Headers */,
+				E3F486D81831CCF100A68C03 /* UTMCoordinates.h in Headers */,
+				E3F486C81831CCF100A68C03 /* CartesianCoordinates.h in Headers */,
+				E3F4866E1831CCF100A68C03 /* UTMParameters.h in Headers */,
+				E3F486D61831CCF100A68C03 /* UPSCoordinates.h in Headers */,
+				E3F486C21831CCF100A68C03 /* UTM.h in Headers */,
+				E3F486E31831CCF100A68C03 /* EllipsoidLibrary.h in Headers */,
+				E3F486B61831CCF100A68C03 /* CCSThreadLock.h in Headers */,
+				E3F486BA1831CCF100A68C03 /* TransverseMercator.h in Headers */,
+				E3F486881831CCF100A68C03 /* Ellipsoid.h in Headers */,
+				E3F486BE1831CCF100A68C03 /* UPS.h in Headers */,
+				E3F486761831CCF100A68C03 /* Bonne.h in Headers */,
+				E3F486CC1831CCF100A68C03 /* GARSCoordinates.h in Headers */,
+				E3F486B81831CCF100A68C03 /* CCSThreadMutex.h in Headers */,
+				E3F486A01831CCF100A68C03 /* MillerCylindrical.h in Headers */,
+				E3F486ED1831CCF100A68C03 /* WarningMessages.h in Headers */,
+				E3F486A21831CCF100A68C03 /* CoordinateSystem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E3792D76183835140006E2D0 /* MSPdtcc_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3792D78183835140006E2D0 /* Build configuration list for PBXNativeTarget "MSPdtcc_static" */;
+			buildPhases = (
+				E3792D73183835140006E2D0 /* Sources */,
+				E3792D74183835140006E2D0 /* Frameworks */,
+				E3792D75183835140006E2D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSPdtcc_static;
+			productName = MSPdtcc_static;
+			productReference = E3792D77183835140006E2D0 /* libMSPdtcc_static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3EAD683184CB45200D9206C /* MSPdtcc_static_iOS7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3EAD687184CB45300D9206C /* Build configuration list for PBXNativeTarget "MSPdtcc_static_iOS7" */;
+			buildPhases = (
+				E3EAD680184CB45200D9206C /* Sources */,
+				E3EAD681184CB45200D9206C /* Frameworks */,
+				E3EAD682184CB45200D9206C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSPdtcc_static_iOS7;
+			productName = MSPdtcc_static_iOS7;
+			productReference = E3EAD684184CB45200D9206C /* libMSPdtcc_static_iOS7.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E3F484051831CB9F00A68C03 /* MSPdtcc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F4840A1831CB9F00A68C03 /* Build configuration list for PBXNativeTarget "MSPdtcc" */;
+			buildPhases = (
+				E3F484021831CB9F00A68C03 /* Sources */,
+				E3F484031831CB9F00A68C03 /* Frameworks */,
+				E3F484041831CB9F00A68C03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSPdtcc;
+			productName = MSPdtcc;
+			productReference = E3F484061831CB9F00A68C03 /* libMSPdtcc.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3F483FE1831CB9F00A68C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Steve Wainwright";
+			};
+			buildConfigurationList = E3F484011831CB9F00A68C03 /* Build configuration list for PBXProject "MSPdtcc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3F483FD1831CB9F00A68C03;
+			productRefGroup = E3F484071831CB9F00A68C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3F484051831CB9F00A68C03 /* MSPdtcc */,
+				E3792D76183835140006E2D0 /* MSPdtcc_static */,
+				E3EAD683184CB45200D9206C /* MSPdtcc_static_iOS7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3792D73183835140006E2D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3792DB3183836740006E2D0 /* ObliqueMercator.cpp in Sources */,
+				E3792DB4183836740006E2D0 /* Orthographic.cpp in Sources */,
+				E3792DB5183836740006E2D0 /* PolarStereographic.cpp in Sources */,
+				E3792DB6183836740006E2D0 /* Polyconic.cpp in Sources */,
+				E3792DB7183836740006E2D0 /* Sinusoidal.cpp in Sources */,
+				E3792DB8183836740006E2D0 /* Stereographic.cpp in Sources */,
+				E3792DB9183836740006E2D0 /* CCSThreadLock.cpp in Sources */,
+				E3792DBA183836740006E2D0 /* CCSThreadMutex.cpp in Sources */,
+				E3792DBB183836740006E2D0 /* TransverseMercator.cpp in Sources */,
+				E3792DBC183836740006E2D0 /* TransverseCylindricalEqualArea.cpp in Sources */,
+				E3792DBD183836740006E2D0 /* UPS.cpp in Sources */,
+				E3792DBE183836740006E2D0 /* USNG.cpp in Sources */,
+				E3792DBF183836740006E2D0 /* UTM.cpp in Sources */,
+				E3792DC0183836740006E2D0 /* Accuracy.cpp in Sources */,
+				E3792DC1183836740006E2D0 /* BNGCoordinates.cpp in Sources */,
+				E3792DC2183836740006E2D0 /* CartesianCoordinates.cpp in Sources */,
+				E3792DC3183836740006E2D0 /* CoordinateTuple.cpp in Sources */,
+				E3792DC4183836740006E2D0 /* GARSCoordinates.cpp in Sources */,
+				E3792DC5183836740006E2D0 /* GeodeticCoordinates.cpp in Sources */,
+				E3792DC6183836740006E2D0 /* GEOREFCoordinates.cpp in Sources */,
+				E3792DC7183836740006E2D0 /* MapProjectionCoordinates.cpp in Sources */,
+				E3792DC8183836740006E2D0 /* MGRSorUSNGCoordinates.cpp in Sources */,
+				E3792DC9183836740006E2D0 /* UPSCoordinates.cpp in Sources */,
+				E3792DCA183836740006E2D0 /* UTMCoordinates.cpp in Sources */,
+				E3792DCB183836740006E2D0 /* DatumLibrary.cpp in Sources */,
+				E3792DCC183836740006E2D0 /* egm2008_aoi_grid_package.cpp in Sources */,
+				E3792DCD183836740006E2D0 /* egm2008_full_grid_package.cpp in Sources */,
+				E3792DCE183836740006E2D0 /* egm2008_geoid_grid.cpp in Sources */,
+				E3792DCF183836740006E2D0 /* EllipsoidLibrary.cpp in Sources */,
+				E3792DD0183836740006E2D0 /* ErrorMessages.cpp in Sources */,
+				E3792DD1183836740006E2D0 /* WarningMessages.cpp in Sources */,
+				E3792DD2183836740006E2D0 /* GeoidLibrary.cpp in Sources */,
+				E3792D9A1838363B0006E2D0 /* Cassini.cpp in Sources */,
+				E3792D9B1838363B0006E2D0 /* CylindricalEqualArea.cpp in Sources */,
+				E3792D9C1838363B0006E2D0 /* Datum.cpp in Sources */,
+				E3792D9D1838363B0006E2D0 /* DatumLibraryImplementation.cpp in Sources */,
+				E3792D9E1838363B0006E2D0 /* SevenParameterDatum.cpp in Sources */,
+				E3792D9F1838363B0006E2D0 /* ThreeParameterDatum.cpp in Sources */,
+				E3792DA01838363B0006E2D0 /* Eckert4.cpp in Sources */,
+				E3792DA11838363B0006E2D0 /* Eckert6.cpp in Sources */,
+				E3792DA21838363B0006E2D0 /* Ellipsoid.cpp in Sources */,
+				E3792DA31838363B0006E2D0 /* EllipsoidLibraryImplementation.cpp in Sources */,
+				E3792DA41838363B0006E2D0 /* EquidistantCylindrical.cpp in Sources */,
+				E3792DA51838363B0006E2D0 /* GARS.cpp in Sources */,
+				E3792DA61838363B0006E2D0 /* Geocentric.cpp in Sources */,
+				E3792DA71838363B0006E2D0 /* GEOREF.cpp in Sources */,
+				E3792DA81838363B0006E2D0 /* Gnomonic.cpp in Sources */,
+				E3792DA91838363B0006E2D0 /* VanDerGrinten.cpp in Sources */,
+				E3792DAA1838363B0006E2D0 /* LambertConformalConic.cpp in Sources */,
+				E3792DAB1838363B0006E2D0 /* LocalCartesian.cpp in Sources */,
+				E3792DAC1838363B0006E2D0 /* Mercator.cpp in Sources */,
+				E3792DAD1838363B0006E2D0 /* MGRS.cpp in Sources */,
+				E3792DAE1838363B0006E2D0 /* MillerCylindrical.cpp in Sources */,
+				E3792DAF1838363B0006E2D0 /* CoordinateSystem.cpp in Sources */,
+				E3792DB01838363B0006E2D0 /* Mollweide.cpp in Sources */,
+				E3792DB11838363B0006E2D0 /* Neys.cpp in Sources */,
+				E3792DB21838363B0006E2D0 /* NZMG.cpp in Sources */,
+				E3792D861838360F0006E2D0 /* CoordinateSystemParameters.cpp in Sources */,
+				E3792D871838360F0006E2D0 /* EllipsoidParameters.cpp in Sources */,
+				E3792D881838360F0006E2D0 /* EquidistantCylindricalParameters.cpp in Sources */,
+				E3792D891838360F0006E2D0 /* GeodeticParameters.cpp in Sources */,
+				E31BE41C183B08C700BE971B /* HotineObliqueMercator.cpp in Sources */,
+				E3792D8A1838360F0006E2D0 /* LocalCartesianParameters.cpp in Sources */,
+				E3792D8B1838360F0006E2D0 /* MapProjection3Parameters.cpp in Sources */,
+				E3792D8C1838360F0006E2D0 /* MapProjection4Parameters.cpp in Sources */,
+				E3792D8D1838360F0006E2D0 /* MapProjection5Parameters.cpp in Sources */,
+				E3792D8E1838360F0006E2D0 /* MapProjection6Parameters.cpp in Sources */,
+				E3792D8F1838360F0006E2D0 /* MercatorScaleFactorParameters.cpp in Sources */,
+				E3792D901838360F0006E2D0 /* MercatorStandardParallelParameters.cpp in Sources */,
+				E3792D911838360F0006E2D0 /* NeysParameters.cpp in Sources */,
+				E3792D921838360F0006E2D0 /* ObliqueMercatorParameters.cpp in Sources */,
+				E3792D931838360F0006E2D0 /* PolarStereographicScaleFactorParameters.cpp in Sources */,
+				E3792D941838360F0006E2D0 /* PolarStereographicStandardParallelParameters.cpp in Sources */,
+				E3792D951838360F0006E2D0 /* UTMParameters.cpp in Sources */,
+				E3792D961838360F0006E2D0 /* AlbersEqualAreaConic.cpp in Sources */,
+				E3792D971838360F0006E2D0 /* AzimuthalEquidistant.cpp in Sources */,
+				E3792D981838360F0006E2D0 /* BritishNationalGrid.cpp in Sources */,
+				E3792D991838360F0006E2D0 /* Bonne.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EAD680184CB45200D9206C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EAD6C3184CB5CC00D9206C /* Orthographic.cpp in Sources */,
+				E3EAD6C4184CB5CC00D9206C /* PolarStereographic.cpp in Sources */,
+				E3EAD6C5184CB5CC00D9206C /* Polyconic.cpp in Sources */,
+				E3EAD6C6184CB5CD00D9206C /* Sinusoidal.cpp in Sources */,
+				E3EAD6C7184CB5CD00D9206C /* Stereographic.cpp in Sources */,
+				E3EAD6C8184CB5CD00D9206C /* CCSThreadLock.cpp in Sources */,
+				E3EAD6C9184CB5CD00D9206C /* CCSThreadMutex.cpp in Sources */,
+				E3EAD6CA184CB5CD00D9206C /* TransverseMercator.cpp in Sources */,
+				E3EAD6CB184CB5CD00D9206C /* TransverseCylindricalEqualArea.cpp in Sources */,
+				E3EAD6CC184CB5CD00D9206C /* UPS.cpp in Sources */,
+				E3EAD6CD184CB5CD00D9206C /* USNG.cpp in Sources */,
+				E3EAD6CE184CB5CD00D9206C /* UTM.cpp in Sources */,
+				E3EAD6CF184CB5CD00D9206C /* Accuracy.cpp in Sources */,
+				E3EAD6D0184CB5CD00D9206C /* BNGCoordinates.cpp in Sources */,
+				E3EAD6D1184CB5CD00D9206C /* CartesianCoordinates.cpp in Sources */,
+				E3EAD6D2184CB5CD00D9206C /* CoordinateTuple.cpp in Sources */,
+				E3EAD6D3184CB5CD00D9206C /* GARSCoordinates.cpp in Sources */,
+				E3EAD6D4184CB5CD00D9206C /* GeodeticCoordinates.cpp in Sources */,
+				E3EAD6D5184CB5CD00D9206C /* GEOREFCoordinates.cpp in Sources */,
+				E3EAD6D6184CB5CD00D9206C /* MapProjectionCoordinates.cpp in Sources */,
+				E3EAD6D7184CB5CD00D9206C /* MGRSorUSNGCoordinates.cpp in Sources */,
+				E3EAD6D8184CB5CD00D9206C /* UPSCoordinates.cpp in Sources */,
+				E3EAD6D9184CB5CD00D9206C /* UTMCoordinates.cpp in Sources */,
+				E3EAD6DA184CB5CD00D9206C /* DatumLibrary.cpp in Sources */,
+				E3EAD6DB184CB5CD00D9206C /* egm2008_aoi_grid_package.cpp in Sources */,
+				E3EAD6DC184CB5CD00D9206C /* egm2008_full_grid_package.cpp in Sources */,
+				E3EAD6DD184CB5CD00D9206C /* egm2008_geoid_grid.cpp in Sources */,
+				E3EAD6DE184CB5CD00D9206C /* EllipsoidLibrary.cpp in Sources */,
+				E3EAD6DF184CB5CD00D9206C /* ErrorMessages.cpp in Sources */,
+				E3EAD6E0184CB5CD00D9206C /* WarningMessages.cpp in Sources */,
+				E3EAD6E1184CB5CD00D9206C /* GeoidLibrary.cpp in Sources */,
+				E3EAD6A4184CB59300D9206C /* AlbersEqualAreaConic.cpp in Sources */,
+				E3EAD6A5184CB59300D9206C /* AzimuthalEquidistant.cpp in Sources */,
+				E3EAD6A6184CB59300D9206C /* BritishNationalGrid.cpp in Sources */,
+				E3EAD6A7184CB59300D9206C /* Bonne.cpp in Sources */,
+				E3EAD6A8184CB59300D9206C /* Cassini.cpp in Sources */,
+				E3EAD6A9184CB59300D9206C /* CylindricalEqualArea.cpp in Sources */,
+				E3EAD6AA184CB59300D9206C /* Datum.cpp in Sources */,
+				E3EAD6AB184CB59300D9206C /* DatumLibraryImplementation.cpp in Sources */,
+				E3EAD6AC184CB59300D9206C /* SevenParameterDatum.cpp in Sources */,
+				E3EAD6AD184CB59300D9206C /* ThreeParameterDatum.cpp in Sources */,
+				E3EAD6AE184CB59300D9206C /* Eckert4.cpp in Sources */,
+				E3EAD6AF184CB59300D9206C /* Eckert6.cpp in Sources */,
+				E3EAD6B0184CB59300D9206C /* Ellipsoid.cpp in Sources */,
+				E3EAD6B1184CB59300D9206C /* EllipsoidLibraryImplementation.cpp in Sources */,
+				E3EAD6B2184CB59300D9206C /* EquidistantCylindrical.cpp in Sources */,
+				E3EAD6B3184CB59300D9206C /* GARS.cpp in Sources */,
+				E3EAD6B4184CB59300D9206C /* Geocentric.cpp in Sources */,
+				E3EAD6B5184CB59300D9206C /* GEOREF.cpp in Sources */,
+				E3EAD6B6184CB59300D9206C /* Gnomonic.cpp in Sources */,
+				E3EAD6B7184CB59300D9206C /* VanDerGrinten.cpp in Sources */,
+				E3EAD6B8184CB59300D9206C /* HotineObliqueMercator.cpp in Sources */,
+				E3EAD6B9184CB59300D9206C /* LambertConformalConic.cpp in Sources */,
+				E3EAD6BA184CB59300D9206C /* LocalCartesian.cpp in Sources */,
+				E3EAD6BB184CB59300D9206C /* Mercator.cpp in Sources */,
+				E3EAD6BC184CB59300D9206C /* MGRS.cpp in Sources */,
+				E3EAD6BD184CB59300D9206C /* MillerCylindrical.cpp in Sources */,
+				E3EAD6BE184CB59300D9206C /* CoordinateSystem.cpp in Sources */,
+				E3EAD6BF184CB59300D9206C /* Mollweide.cpp in Sources */,
+				E3EAD6C0184CB59300D9206C /* Neys.cpp in Sources */,
+				E3EAD6C1184CB59300D9206C /* NZMG.cpp in Sources */,
+				E3EAD6C2184CB59300D9206C /* ObliqueMercator.cpp in Sources */,
+				E3EAD694184CB56500D9206C /* CoordinateSystemParameters.cpp in Sources */,
+				E3EAD695184CB56500D9206C /* EllipsoidParameters.cpp in Sources */,
+				E3EAD696184CB56500D9206C /* EquidistantCylindricalParameters.cpp in Sources */,
+				E3EAD697184CB56500D9206C /* GeodeticParameters.cpp in Sources */,
+				E3EAD698184CB56500D9206C /* LocalCartesianParameters.cpp in Sources */,
+				E3EAD699184CB56500D9206C /* MapProjection3Parameters.cpp in Sources */,
+				E3EAD69A184CB56500D9206C /* MapProjection4Parameters.cpp in Sources */,
+				E3EAD69B184CB56500D9206C /* MapProjection5Parameters.cpp in Sources */,
+				E3EAD69C184CB56500D9206C /* MapProjection6Parameters.cpp in Sources */,
+				E3EAD69D184CB56500D9206C /* MercatorScaleFactorParameters.cpp in Sources */,
+				E3EAD69E184CB56500D9206C /* MercatorStandardParallelParameters.cpp in Sources */,
+				E3EAD69F184CB56500D9206C /* NeysParameters.cpp in Sources */,
+				E3EAD6A0184CB56500D9206C /* ObliqueMercatorParameters.cpp in Sources */,
+				E3EAD6A1184CB56500D9206C /* PolarStereographicScaleFactorParameters.cpp in Sources */,
+				E3EAD6A2184CB56500D9206C /* PolarStereographicStandardParallelParameters.cpp in Sources */,
+				E3EAD6A3184CB56500D9206C /* UTMParameters.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F484021831CB9F00A68C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F486A11831CCF100A68C03 /* CoordinateSystem.cpp in Sources */,
+				E3F486811831CCF100A68C03 /* ThreeParameterDatum.cpp in Sources */,
+				E3F486AF1831CCF100A68C03 /* Polyconic.cpp in Sources */,
+				E3F486571831CCF100A68C03 /* LocalCartesianParameters.cpp in Sources */,
+				E3F4865D1831CCF100A68C03 /* MapProjection5Parameters.cpp in Sources */,
+				E3F4867F1831CCF100A68C03 /* SevenParameterDatum.cpp in Sources */,
+				E3F486D51831CCF100A68C03 /* UPSCoordinates.cpp in Sources */,
+				E3F486591831CCF100A68C03 /* MapProjection3Parameters.cpp in Sources */,
+				E3F486D31831CCF100A68C03 /* MGRSorUSNGCoordinates.cpp in Sources */,
+				E3F4868B1831CCF100A68C03 /* EquidistantCylindrical.cpp in Sources */,
+				E3F4868D1831CCF100A68C03 /* GARS.cpp in Sources */,
+				E3F486AB1831CCF100A68C03 /* Orthographic.cpp in Sources */,
+				E3F486C31831CCF100A68C03 /* Accuracy.cpp in Sources */,
+				E3F486C11831CCF100A68C03 /* UTM.cpp in Sources */,
+				E3F486CF1831CCF100A68C03 /* GEOREFCoordinates.cpp in Sources */,
+				E3F4868F1831CCF100A68C03 /* Geocentric.cpp in Sources */,
+				E3F486B91831CCF100A68C03 /* TransverseMercator.cpp in Sources */,
+				E3F486B31831CCF100A68C03 /* Stereographic.cpp in Sources */,
+				E3F486A71831CCF100A68C03 /* NZMG.cpp in Sources */,
+				E3F4864F1831CCF100A68C03 /* CoordinateSystemParameters.cpp in Sources */,
+				E3F486C51831CCF100A68C03 /* BNGCoordinates.cpp in Sources */,
+				E3F486DC1831CCF100A68C03 /* egm2008_aoi_grid_package.cpp in Sources */,
+				E3F486E01831CCF100A68C03 /* egm2008_geoid_grid.cpp in Sources */,
+				E3F486EE1831CCF100A68C03 /* GeoidLibrary.cpp in Sources */,
+				E3F486951831CCF100A68C03 /* VanDerGrinten.cpp in Sources */,
+				E3F486771831CCF100A68C03 /* Cassini.cpp in Sources */,
+				E3F486A31831CCF100A68C03 /* Mollweide.cpp in Sources */,
+				E3F486631831CCF100A68C03 /* MercatorStandardParallelParameters.cpp in Sources */,
+				E3F486C91831CCF100A68C03 /* CoordinateTuple.cpp in Sources */,
+				E3F4869F1831CCF100A68C03 /* MillerCylindrical.cpp in Sources */,
+				E3F486871831CCF100A68C03 /* Ellipsoid.cpp in Sources */,
+				E3F486EC1831CCF100A68C03 /* WarningMessages.cpp in Sources */,
+				E3F486971831CCF100A68C03 /* LambertConformalConic.cpp in Sources */,
+				E3F486891831CCF100A68C03 /* EllipsoidLibraryImplementation.cpp in Sources */,
+				E3F486691831CCF100A68C03 /* PolarStereographicScaleFactorParameters.cpp in Sources */,
+				E3F486D11831CCF100A68C03 /* MapProjectionCoordinates.cpp in Sources */,
+				E3F486CB1831CCF100A68C03 /* GARSCoordinates.cpp in Sources */,
+				E3F486BD1831CCF100A68C03 /* UPS.cpp in Sources */,
+				E3F486AD1831CCF100A68C03 /* PolarStereographic.cpp in Sources */,
+				E3F486531831CCF100A68C03 /* EquidistantCylindricalParameters.cpp in Sources */,
+				E3F486B11831CCF100A68C03 /* Sinusoidal.cpp in Sources */,
+				E3F486D91831CCF100A68C03 /* DatumLibrary.cpp in Sources */,
+				E3F486791831CCF100A68C03 /* CylindricalEqualArea.cpp in Sources */,
+				E3F486991831CCF100A68C03 /* LocalCartesian.cpp in Sources */,
+				E3F486BF1831CCF100A68C03 /* USNG.cpp in Sources */,
+				E3F4869B1831CCF100A68C03 /* Mercator.cpp in Sources */,
+				E3F486DE1831CCF100A68C03 /* egm2008_full_grid_package.cpp in Sources */,
+				E3F486671831CCF100A68C03 /* ObliqueMercatorParameters.cpp in Sources */,
+				E3F486511831CCF100A68C03 /* EllipsoidParameters.cpp in Sources */,
+				E3F486CD1831CCF100A68C03 /* GeodeticCoordinates.cpp in Sources */,
+				E3F4865F1831CCF100A68C03 /* MapProjection6Parameters.cpp in Sources */,
+				E3F486B51831CCF100A68C03 /* CCSThreadLock.cpp in Sources */,
+				E3F486551831CCF100A68C03 /* GeodeticParameters.cpp in Sources */,
+				E3F486D71831CCF100A68C03 /* UTMCoordinates.cpp in Sources */,
+				E3F4867D1831CCF100A68C03 /* DatumLibraryImplementation.cpp in Sources */,
+				E3F486E21831CCF100A68C03 /* EllipsoidLibrary.cpp in Sources */,
+				E3F486831831CCF100A68C03 /* Eckert4.cpp in Sources */,
+				E3F486931831CCF100A68C03 /* Gnomonic.cpp in Sources */,
+				E3F486611831CCF100A68C03 /* MercatorScaleFactorParameters.cpp in Sources */,
+				E3F4866D1831CCF100A68C03 /* UTMParameters.cpp in Sources */,
+				E3F486A51831CCF100A68C03 /* Neys.cpp in Sources */,
+				E31BE41B183B08C700BE971B /* HotineObliqueMercator.cpp in Sources */,
+				E3F4866F1831CCF100A68C03 /* AlbersEqualAreaConic.cpp in Sources */,
+				E3F486BB1831CCF100A68C03 /* TransverseCylindricalEqualArea.cpp in Sources */,
+				E3F486851831CCF100A68C03 /* Eckert6.cpp in Sources */,
+				E3F486A91831CCF100A68C03 /* ObliqueMercator.cpp in Sources */,
+				E3F486651831CCF100A68C03 /* NeysParameters.cpp in Sources */,
+				E3F486C71831CCF100A68C03 /* CartesianCoordinates.cpp in Sources */,
+				E3F486711831CCF100A68C03 /* AzimuthalEquidistant.cpp in Sources */,
+				E3F486B71831CCF100A68C03 /* CCSThreadMutex.cpp in Sources */,
+				E3F486751831CCF100A68C03 /* Bonne.cpp in Sources */,
+				E3F4869D1831CCF100A68C03 /* MGRS.cpp in Sources */,
+				E3F4866B1831CCF100A68C03 /* PolarStereographicStandardParallelParameters.cpp in Sources */,
+				E3F486731831CCF100A68C03 /* BritishNationalGrid.cpp in Sources */,
+				E3F486911831CCF100A68C03 /* GEOREF.cpp in Sources */,
+				E3F486EA1831CCF100A68C03 /* ErrorMessages.cpp in Sources */,
+				E3F4865B1831CCF100A68C03 /* MapProjection4Parameters.cpp in Sources */,
+				E3F4867B1831CCF100A68C03 /* Datum.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E3792D79183835140006E2D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		E3792D7A183835140006E2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		E3EAD685184CB45300D9206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		E3EAD686184CB45300D9206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		E3F484081831CB9F00A68C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		E3F484091831CB9F00A68C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		E3F4840B1831CB9F00A68C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		E3F4840C1831CB9F00A68C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3792D78183835140006E2D0 /* Build configuration list for PBXNativeTarget "MSPdtcc_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3792D79183835140006E2D0 /* Debug */,
+				E3792D7A183835140006E2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3EAD687184CB45300D9206C /* Build configuration list for PBXNativeTarget "MSPdtcc_static_iOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EAD685184CB45300D9206C /* Debug */,
+				E3EAD686184CB45300D9206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F484011831CB9F00A68C03 /* Build configuration list for PBXProject "MSPdtcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F484081831CB9F00A68C03 /* Debug */,
+				E3F484091831CB9F00A68C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F4840A1831CB9F00A68C03 /* Build configuration list for PBXNativeTarget "MSPdtcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F4840B1831CB9F00A68C03 /* Debug */,
+				E3F4840C1831CB9F00A68C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3F483FE1831CB9F00A68C03 /* Project object */;
+}
